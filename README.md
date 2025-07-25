@@ -126,6 +126,7 @@ Comprehensive collection of datasets for various NLP tasks:
 - **Sentiment Analysis**:
     - [Hotel Reviews ABSA](https://github.com/jordhy97/final_project) (5K reviews, 78K tokens)
     - [Aspect-Based Sentiment Analysis](https://github.com/annisanurulazhar/absa-playground)
+    - [Mongabay](https://huggingface.co/datasets/Datasaur/Mongabay-collection)
 - **Text Classification**:
     - [SMS Spam Detection](https://drive.google.com/file/d/1-stKadfTgJLtYsHWqXhGO3nTjKVFxm_Q/view) (1,143 sentences)
     - [Hate Speech Detection](https://github.com/ialfina/id-hatespeech-detection) (713 tweets)
@@ -141,6 +142,16 @@ Comprehensive collection of datasets for various NLP tasks:
 - **Syntactic Parsing**:
     - [Indonesian Treebank](https://github.com/famrashel/idn-treebank) (1K parsed sentences)
     - [UD Indonesian](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
+
+#### Translated Dataset (Our Works)
+
+- **OpenWebText-10K**: [Download](https://huggingface.co/datasets/irfanfadhullah/OpenWebText-Indonesia-10k/)
+- **FineWeb-Edu-25K**: [Download](https://huggingface.co/datasets/irfanfadhullah/FineWeb-Edu-25K/)
+
+#### QQPR-Triplets-ID
+- **Size**: 86K
+- **Link**: [Download](https://huggingface.co/datasets/robinsyihab/QQPR-triplets-ID)
+
 
 ### 🔡 Token
 
@@ -540,8 +551,16 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Paper**: IALP 2018
 
 **XLSum**
+- **Size**: The dataset covers 45 languages ranging from low to high-resource
+- **Split**: Train:38242	Dev:4780	Test:4780	Total:47802
+- **Features**: XL-Sum is highly abstractive, concise, and of high quality, as indicated by human and intrinsic evaluation.
+- **Links**: [Data Download](https://huggingface.co/datasets/csebuetnlp/xlsum)
 
 **WikiLingua**
+- **Size**: The dataset includes ~770k article and summary pairs in 18 languages from WikiHow
+- **Categories**: 17 languages
+- **Features**: They extract gold-standard article-summary alignments across languages by aligning the images that are used to describe each how-to step in an article.
+- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | [Data Download](https://drive.google.com/file/d/1sTCB5NDPq6vUOlxR29DbvSssErvXLD1d/view?usp=sharing)
 
 #### Translated Summarization Datasets
 
@@ -563,6 +582,11 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Size**: ~4M article pairs
 - **Links**: [Download](https://stor.akmal.dev/gigaword.tar.zst)
 
+**Indonesian Simple Summaries**
+
+- **Description**: Indonesian version of Simple Summaries
+- **Size**: ~10k pair
+- **Links**: [Download](https://huggingface.co/datasets/irfanfadhullah/indonesian-simple-summaries)
 
 ### 🌍 Machine Translation
 
@@ -1917,4 +1941,38 @@ location = {Hanoi, Vietnam}
   note      = {to appear in EACL2021}
 }
 
+```
+
+**XLSum Dataset**
+
+```bibtex
+@inproceedings{hasan-etal-2021-xl,
+    title = "{XL}-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages",
+    author = "Hasan, Tahmid  and
+      Bhattacharjee, Abhik  and
+      Islam, Md. Saiful  and
+      Mubasshir, Kazi  and
+      Li, Yuan-Fang  and
+      Kang, Yong-Bin  and
+      Rahman, M. Sohel  and
+      Shahriyar, Rifat",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-acl.413",
+    pages = "4693--4703",
+}
+
+```
+
+**WikiLingua Dataset**
+```bibtex
+@inproceedings{ladhak-wiki-2020,
+    title={WikiLingua: A New Benchmark Dataset for Multilingual Abstractive Summarization},
+    author={Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown},
+    booktitle={Findings of EMNLP, 2020},
+    year={2020}
+}
 ```
