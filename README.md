@@ -144,7 +144,9 @@ Comprehensive collection of datasets for various NLP tasks:
 
 ### 🔡 Token
 
-**Classification** 
+#### Token Classification
+
+- **List of the Dataset** 
     - [BaPOS](https://github.com/IndoNLP/indonlu/tree/master/dataset/bapos_pos-idn)
     - [POSP](https://github.com/IndoNLP/indonlu/tree/master/dataset/posp_pos-prosa)
     - [NERP](https://github.com/IndoNLP/indonlu/tree/master/dataset/nerp_ner-prosa)
