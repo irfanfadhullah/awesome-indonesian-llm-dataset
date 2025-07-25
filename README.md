@@ -8,6 +8,7 @@ A curated collection of high-quality Indonesian datasets for training Large Lang
 - [📋 TODO](#-todo)
 - [📊 Dataset Categories](#-dataset-categories)
     - [🧠 Natural Language Understanding](#-natural-language-understanding)
+    - [🔡 Token](#-token)
     - [📚 Knowledge Graphs](#-knowledge-graphs)
     - [🌐 Web Crawl \& Text Corpora](#-web-crawl--text-corpora)
     - [🗣️ Local Languages](#-local-languages)
@@ -129,10 +130,27 @@ Comprehensive collection of datasets for various NLP tasks:
     - [SMS Spam Detection](https://drive.google.com/file/d/1-stKadfTgJLtYsHWqXhGO3nTjKVFxm_Q/view) (1,143 sentences)
     - [Hate Speech Detection](https://github.com/ialfina/id-hatespeech-detection) (713 tweets)
     - [Abusive Language Detection](https://github.com/okkyibrohim/id-abusive-language-detection)
+    - [HoASA](https://huggingface.co/datasets/SEACrowd/hoasa)
+    - [Indonesian Clickbait Headlines](https://www.kaggle.com/datasets/andikawilliam/clickid)	
+    - [CASA](https://huggingface.co/datasets/SEACrowd/casa)
+    - [SmSA](https://huggingface.co/datasets/SEACrowd/smsa)
+    - [WReTE](https://github.com/IndoNLP/indonlu/tree/master/dataset/wrete_entailment-ui)
+    - [EmoT](https://huggingface.co/datasets/SEACrowd/emot)
+    - [SentiWS](https://www.kaggle.com/datasets/rtatman/sentiment-lexicons-for-81-languages)
+
 - **Syntactic Parsing**:
     - [Indonesian Treebank](https://github.com/famrashel/idn-treebank) (1K parsed sentences)
     - [UD Indonesian](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
 
+### 🔡 Token
+
+**Classification** 
+    - [BaPOS](https://github.com/IndoNLP/indonlu/tree/master/dataset/bapos_pos-idn)
+    - [POSP](https://github.com/IndoNLP/indonlu/tree/master/dataset/posp_pos-prosa)
+    - [NERP](https://github.com/IndoNLP/indonlu/tree/master/dataset/nerp_ner-prosa)
+    - [KEPS](https://github.com/IndoNLP/indonlu/tree/master/dataset/keps_keyword-extraction-prosa)
+    - [NERGrit](https://github.com/IndoNLP/indonlu/tree/master/dataset/nergrit_ner-grit)
+    - [TermA](https://github.com/IndoNLP/indonlu/tree/master/dataset/terma_term-extraction-airy)
 
 ### 📚 Knowledge Graphs
 
@@ -185,6 +203,25 @@ Comprehensive collection of datasets for various NLP tasks:
 - **Size**: 4B words, 250M sentences
 - **Links**: [HuggingFace Models](https://huggingface.co/indobenchmark) | [Dataset](https://storage.googleapis.com/babert-pretraining/IndoNLU_finals/dataset/preprocessed/dataset_all_uncased_blankline.txt.xz) | [GitHub](https://github.com/indobenchmark/indonlu)
 
+**WiLI-2018**
+- **Size**: 235000 paragraphs of 235 languages
+- **Links**: [Zenodo Link](https://zenodo.org/records/841984)
+- **Local Language**: Indonesia, Javanese, Sundanese
+
+**WikiANN**
+- **Size**: Supports 176 of the 282 languages from the original WikiANN corpus
+- **Links**: [DropBox Link](https://www.dropbox.com/s/12h3qqog6q4bjve/panx_dataset.tar?dl=1)
+- **Local Language**: Indonesia, Javanese, Sundanese
+
+**Tatoeba**
+- **Size**: 32G translation units in 2,539 bitexts. The whole data set covers 487 languages linked to each other in 4,024 language pairs.
+- **Links**: [Huggingface Link](https://huggingface.co/datasets/Helsinki-NLP/tatoeba)
+- **Local Language**: Indonesia, Javanese, Sundanese
+
+**The QCRI Educational Domain Corpus (formerly QCRI AMARA Corpus)**
+- **Size**: There are 225 languages, from	9,291 bitexts. The number of files are	271,558 with	371.76M tokens
+- **Links**: [Link](https://opus.nlpl.eu/QED/en&es/v2.0a/QED)
+- **Local Language**: Indonesia, Javanese
 
 #### Specialized Crawl Datasets
 
@@ -261,7 +298,8 @@ Additional datasets available on HuggingFace:
 
 - **Translated Dataset**: [HuggingFace](https://huggingface.co/datasets/ravialdy/javanese-translated)
 - **Javanese Corpus**: [Kaggle](https://www.kaggle.com/datasets/hakikidamana/javanese-corpus/data)
-- **Large Javanese ASR**: [OpenSLR](https://openslr.org/35/)
+- **Large Javanese ASR**: [OpenSLR Javanese](https://openslr.org/35/)
+- **VoxLingua107**: [VoxLingua107 Javanese](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/jw.zip)
 
 **NusaWrites Benchmark**
 
@@ -288,6 +326,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 - **AMSunda Dataset**: [Zenodo](https://zenodo.org/records/15494944) - First dataset for Sundanese information retrieval
 - **SU-CSQA**: [HuggingFace](https://huggingface.co/datasets/rifkiaputri/su-csqa) - Sundanese CommonsenseQA
+- **Large Sundanese ASR**: [OpenSLR Sundanese](https://openslr.org/36/)
+- **VoxLingua107**: [VoxLingua107 Sundanese](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/su.zip)
 
 **Indonesian Speech with Accents**
 
@@ -401,7 +441,6 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 - **Description**: Reading comprehension dataset
 - **Source**: Translated Stanford Question Answering Dataset
-- **Format**: Compatible with HuggingFace training scripts
 - **Links**: [Download](https://stor.akmal.dev/squad/) | [Original](https://rajpurkar.github.io/SQuAD-explorer/)
 
 **Mathematics Dataset (Indonesian)**
@@ -410,6 +449,20 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Content**: School-level mathematical reasoning problems
 - **Tasks**: Algebraic reasoning, problem solving
 - **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesia_dataset/tree/master/question-answering/mathematics_dataset) | [Original](https://github.com/deepmind/mathematics_dataset)
+
+**FacQA**
+- **Description**: FacQA: The goal of the FacQA dataset is to find the answer to a question from a provided short passage from a news article
+- **Source**: Translated Stanford Question Answering Dataset
+- **Links**: [Download](https://github.com/IndoNLP/indonlu/tree/master/dataset/facqa_qa-factoid-itb) | [Huggingface](https://huggingface.co/datasets/SEACrowd/facqa)
+
+**TyDi QA**
+- **Description**: TyDi QA is a question answering dataset covering 11 typologically diverse languages with 204K question-answer pairs
+- **Source**: https://github.com/google-research-datasets/tydiqa
+- **Links**: [Download](https://huggingface.co/datasets/SEACrowd/tydiqa)
+
+**mLAMA**
+- **Description**: mLAMA: Multilingual cersion of LAnguage Model Analysis dataset
+- **Links**: [Download](https://huggingface.co/datasets/cis-lmu/m_lama)
 
 
 ### 🎙️ Speech \& Audio
@@ -459,6 +512,10 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Access**: Contact akmal@depia.wiki
 - **Note**: Research use only
 
+**VoxLingua107 Dataset**
+- **Description**: VoxLingua107 is a speech dataset for training spoken language identification models
+- **Source**: https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/
+- **Links**: [Download](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/id.zip)
 
 ### 📝 Text Summarization
 
@@ -480,6 +537,9 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Links**: [GitHub Repository](https://github.com/kata-ai/indosum) | [Data Download](https://drive.google.com/file/d/1OgYbPfXFAv3TbwP1Qcwt_CC9cVWSJaco/view)
 - **Paper**: IALP 2018
 
+**XLSum**
+
+**WikiLingua**
 
 #### Translated Summarization Datasets
 
@@ -1488,4 +1548,371 @@ When using datasets from this collection, please cite this repository:
     doi = "10.18653/v1/P16-1046",
     pages = "484--494",
 }
+```
+
+**VoxLingua107 Dataset**
+
+```bibtex
+@inproceedings{valk2021slt,
+  title={{VoxLingua107}: a Dataset for Spoken Language Recognition},
+  author={J{\"o}rgen Valk and Tanel Alum{\"a}e},
+  booktitle={Proc. IEEE SLT Workshop},
+  year={2021},
+}
+```
+
+**WiLI-18 Dataset**
+
+```bibtex
+@dataset{thoma_2018_841984,
+  author       = {Thoma, Martin},
+  title        = {WiLI-2018 - Wikipedia Language Identification
+                   database
+                  },
+  month        = jan,
+  year         = 2018,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.841984},
+  url          = {https://doi.org/10.5281/zenodo.841984},
+}
+```
+
+**WikiANN Dataset**
+
+```bibtex
+@inproceedings{rahimi-etal-2019-massively,
+    title = "Massively Multilingual Transfer for {NER}",
+    author = "Rahimi, Afshin  and
+      Li, Yuan  and
+      Cohn, Trevor",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association \
+    for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1015",
+    pages = "151--164",
+}
+```
+
+**Tatoeba**
+
+```bibtex
+@inproceedings{tiedemann-2020-tatoeba,
+    title = "The Tatoeba Translation Challenge {--} Realistic Data Sets for Low Resource and Multilingual {MT}",
+    author = {Tiedemann, J{\"o}rg},
+    booktitle = "Proceedings of the Fifth Conference on Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.wmt-1.139",
+    pages = "1174--1182",
+}
+```
+
+**The QCRI Educational Domain Corpus (formerly QCRI AMARA Corpus)**
+```bibtex
+@inproceedings{abdelali-etal-2014-amara,
+    title = "The {AMARA} Corpus: Building Parallel Language Resources for the Educational Domain",
+    author = "Abdelali, Ahmed  and
+      Guzman, Francisco  and
+      Sajjad, Hassan  and
+      Vogel, Stephan",
+    editor = "Calzolari, Nicoletta  and
+      Choukri, Khalid  and
+      Declerck, Thierry  and
+      Loftsson, Hrafn  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Ninth International Conference on Language Resources and Evaluation ({LREC}'14)",
+    month = may,
+    year = "2014",
+    address = "Reykjavik, Iceland",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L14-1675/",
+    pages = "1856--1862",
+    abstract = "This paper presents the AMARA corpus of on-line educational content: a new parallel corpus of educational video subtitles, multilingually aligned for 20 languages, i.e. 20 monolingual corpora and 190 parallel corpora. This corpus includes both resource-rich languages such as English and Arabic, and resource-poor languages such as Hindi and Thai. In this paper, we describe the gathering, validation, and preprocessing of a large collection of parallel, community-generated subtitles. Furthermore, we describe the methodology used to prepare the data for Machine Translation tasks. Additionally, we provide a document-level, jointly aligned development and test sets for 14 language pairs, designed for tuning and testing Machine Translation systems. We provide baseline results for these tasks, and highlight some of the challenges we face when building machine translation systems for educational content."
+}
+```
+
+**HOASA Dataset**
+
+```bibtex
+@inproceedings{azhar2019multi,
+  title={Multi-label Aspect Categorization with Convolutional Neural Networks and Extreme Gradient Boosting},
+  author={A. N. Azhar, M. L. Khodra, and A. P. Sutiono}
+  booktitle={Proceedings of the 2019 International Conference on Electrical Engineering and Informatics (ICEEI)},
+  pages={35--40},
+  year={2019}
+}
+```
+
+**CASA Dataset**
+```bibtex
+@INPROCEEDINGS{8629181,
+    author={Ilmania, Arfinda and Abdurrahman and Cahyawijaya, Samuel and Purwarianti, Ayu},
+    booktitle={2018 International Conference on Asian Language Processing (IALP)},
+    title={Aspect Detection and Sentiment Classification Using Deep Neural Network for Indonesian Aspect-Based Sentiment Analysis},
+    year={2018},
+    volume={},
+    number={},
+    pages={62-67},
+    doi={10.1109/IALP.2018.8629181}
+}
+```
+
+**Indonesian CLickbait Headlines Dataset**
+```bibtex
+@article{WILLIAM2020106231,
+title = {CLICK-ID: A novel dataset for Indonesian clickbait headlines},
+journal = {Data in Brief},
+volume = {32},
+pages = {106231},
+year = {2020},
+issn = {2352-3409},
+doi = {https://doi.org/10.1016/j.dib.2020.106231},
+url = {https://www.sciencedirect.com/science/article/pii/S2352340920311252},
+author = {Andika William and Yunita Sari},
+keywords = {Indonesian, Natural Language Processing, News articles, Clickbait, Text-classification},
+abstract = {News analysis is a popular task in Natural Language Processing (NLP). In particular, the problem of clickbait in news analysis has gained attention in recent years [1, 2]. However, the majority of the tasks has been focused on English news, in which there is already a rich representative resource. For other languages, such as Indonesian, there is still a lack of resource for clickbait tasks. Therefore, we introduce the CLICK-ID dataset of Indonesian news headlines extracted from 12 Indonesian online news publishers. It is comprised of 15,000 annotated headlines with clickbait and non-clickbait labels. Using the CLICK-ID dataset, we then developed an Indonesian clickbait classification model achieving favourable performance. We believe that this corpus will be useful for replicable experiments in clickbait detection or other experiments in NLP areas.}
+}
+```
+
+**SmSA Dataset**
+```bibtex
+@INPROCEEDINGS{8904199,
+    author={Purwarianti, Ayu and Crisdayanti, Ida Ayu Putu Ari},
+    booktitle={2019 International Conference of Advanced Informatics: Concepts, Theory and Applications (ICAICTA)},
+    title={Improving Bi-LSTM Performance for Indonesian Sentiment Analysis Using Paragraph Vector},
+    year={2019},
+    pages={1-5},
+    doi={10.1109/ICAICTA.2019.8904199}
+}
+```
+
+**Dataloader for CASA HOASA Dataset**
+```bibtex
+@article{lovenia2024seacrowd,
+    title={SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages}, 
+    author={Holy Lovenia and Rahmad Mahendra and Salsabil Maulana Akbar and Lester James V. Miranda and Jennifer Santoso and Elyanah Aco and Akhdan Fadhilah and Jonibek Mansurov and Joseph Marvin Imperial and Onno P. Kampman and Joel Ruben Antony Moniz and Muhammad Ravi Shulthan Habibi and Frederikus Hudi and Railey Montalan and Ryan Ignatius and Joanito Agili Lopo and William Nixon and Börje F. Karlsson and James Jaya and Ryandito Diandaru and Yuze Gao and Patrick Amadeus and Bin Wang and Jan Christian Blaise Cruz and Chenxi Whitehouse and Ivan Halim Parmonangan and Maria Khelli and Wenyu Zhang and Lucky Susanto and Reynard Adha Ryanda and Sonny Lazuardi Hermawan and Dan John Velasco and Muhammad Dehan Al Kautsar and Willy Fitra Hendria and Yasmin Moslem and Noah Flynn and Muhammad Farid Adilazuarda and Haochen Li and Johanes Lee and R. Damanhuri and Shuo Sun and Muhammad Reza Qorib and Amirbek Djanibekov and Wei Qi Leong and Quyet V. Do and Niklas Muennighoff and Tanrada Pansuwan and Ilham Firdausi Putra and Yan Xu and Ngee Chia Tai and Ayu Purwarianti and Sebastian Ruder and William Tjhi and Peerat Limkonchotiwat and Alham Fikri Aji and Sedrick Keh and Genta Indra Winata and Ruochen Zhang and Fajri Koto and Zheng-Xin Yong and Samuel Cahyawijaya},
+    year={2024},
+    eprint={2406.10118},
+    journal={arXiv preprint arXiv: 2406.10118}
+}
+```
+
+
+**WReTE Dataset**
+```bibtex
+@inproceedings{10.1007/978-3-031-23793-5_34,
+author = {Setya, Ken Nabila and Mahendra, Rahmad},
+title = {Semi-supervised Textual Entailment on&nbsp;Indonesian Wikipedia Data},
+year = {2018},
+isbn = {978-3-031-23792-8},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-23793-5_34},
+doi = {10.1007/978-3-031-23793-5_34},
+abstract = {Recognizing Textual Entailment (RTE) is a research in Natural Language Processing that aims to identify whether there is an entailment relation between two texts. Textual Entailment has been studied in a variety of languages, but it is rare for the Indonesian language. The purpose of the work presented in this paper is to conduct the RTE experiment on Indonesian language dataset. Since manual data creation is costly and time consuming, we choose semi-supervised machine learning approach. We apply co-training algorithm to enlarge small amounts of annotated data, called seeds. With this method, the human effort only needed to annotate the seeds. The data resource used is all from Wikipedia and the entailment pairs are extracted from its revision history. Evaluation of 1,857 sentence pairs labelled with entailment information using our approach achieve accuracy 76\%.},
+booktitle = {Computational Linguistics and Intelligent Text Processing: 19th International Conference, CICLing 2018, Hanoi, Vietnam, March 18–24, 2018, Revised Selected Papers, Part I},
+pages = {416–427},
+numpages = {12},
+keywords = {Textual entailment, Co-training, Wikipedia revision history, Indonesian language, Semi-supervised, LSTM},
+location = {Hanoi, Vietnam}
+}
+```
+
+**EMoT Dataset**
+```bibtex
+@INPROCEEDINGS{8629262,
+  author={Saputri, Mei Silviana and Mahendra, Rahmad and Adriani, Mirna},
+  booktitle={2018 International Conference on Asian Language Processing (IALP)}, 
+  title={Emotion Classification on Indonesian Twitter Dataset}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={90-95},
+  keywords={Twitter;Feature extraction;Task analysis;Standards;Government;Logistics;natural language processing;emotion classification;indonesian tweet;feature engineering},
+  doi={10.1109/IALP.2018.8629262}}
+
+```
+
+**SentiWS**
+```bibtex
+@inproceedings{chen-skiena-2014-building,
+    title = "Building Sentiment Lexicons for All Major Languages",
+    author = "Chen, Yanqing  and
+      Skiena, Steven",
+    editor = "Toutanova, Kristina  and
+      Wu, Hua",
+    booktitle = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jun,
+    year = "2014",
+    address = "Baltimore, Maryland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P14-2063/",
+    doi = "10.3115/v1/P14-2063",
+    pages = "383--389"
+}
+```
+
+**POSP Dataset**
+```bibtex
+@inproceedings{hoesen2018investigating,
+  title={Investigating Bi-LSTM and CRF with POS Tag Embedding for Indonesian Named Entity Tagger},
+  author={Devin Hoesen and Ayu Purwarianti},
+  booktitle={Proceedings of the 2018 International Conference on Asian Language Processing (IALP)},
+  pages={35--38},
+  year={2018},
+  organization={IEEE}
+}
+```
+**BaPOS Dataset**
+
+```bibtex
+@inproceedings{dinakaramani2014designing,
+  title={Designing an Indonesian Part of Speech Tagset and Manually Tagged Indonesian Corpus},
+  author={Arawinda Dinakaramani, Fam Rashel, Andry Luthfi, and Ruli Manurung},
+  booktitle={Proceedings of the 2014 International Conference on Asian Language Processing (IALP)},
+  pages={66--69},
+  year={2014},
+  organization={IEEE}
+}
+@inproceedings{kurniawan2018toward,
+  title={Toward a Standardized and More Accurate Indonesian Part-of-Speech Tagging},
+  author={Kemal Kurniawan and Alham Fikri Aji},
+  booktitle={Proceedings of the 2018 International Conference on Asian Language Processing (IALP)},
+  pages={303--307},
+  year={2018},
+  organization={IEEE}
+}
+```
+
+**TermA Dataset**
+
+```bibtex
+@article{winatmoko2019aspect,
+  title={Aspect and Opinion Term Extraction for Hotel Reviews Using Transfer Learning and Auxiliary Labels},
+  author={Yosef Ardhito Winatmoko, Ali Akbar Septiandri, Arie Pratama Sutiono},
+  journal={arXiv preprint arXiv:1909.11879},
+  year={2019}
+}
+@article{fernando2019aspect,
+  title={Aspect and Opinion Terms Extraction Using Double Embeddings and Attention Mechanism for Indonesian Hotel Reviews},
+  author={Jordhy Fernando, Masayu Leylia Khodra, Ali Akbar Septiandri},
+  journal={arXiv preprint arXiv:1908.04899},
+  year={2019}
+}
+```
+
+**KEPS Dataset**
+
+```bibtex
+@inproceedings{mahfuzh2019improving,
+  title={Improving Joint Layer RNN based Keyphrase Extraction by Using Syntactical Features},
+  author={Miftahul Mahfuzh, Sidik Soleman, and Ayu Purwarianti},
+  booktitle={Proceedings of the 2019 International Conference of Advanced Informatics: Concepts, Theory and Applications (ICAICTA)},
+  pages={1--6},
+  year={2019},
+  organization={IEEE}
+}
+```
+
+**NERGrit Dataset**
+
+```bibtex
+@online{nergrit2019,
+  title={NERGrit Corpus},
+  author={NERGrit Developers},
+  year={2019},
+  url={https://github.com/grit-id/nergrit-corpus}
+}
+```
+
+**NERP Dataset**
+
+```bibtex
+@inproceedings{hoesen2018investigating,
+  title={Investigating Bi-LSTM and CRF with POS Tag Embedding for Indonesian Named Entity Tagger},
+  author={Devin Hoesen and Ayu Purwarianti},
+  booktitle={Proceedings of the 2018 International Conference on Asian Language Processing (IALP)},
+  pages={35--38},
+  year={2018},
+  organization={IEEE}
+}
+```
+
+**FacQA**
+
+```bibtex
+@inproceedings{purwarianti2007machine,
+  title={A Machine Learning Approach for Indonesian Question Answering System},
+  author={Ayu Purwarianti, Masatoshi Tsuchiya, and Seiichi Nakagawa},
+  booktitle={Proceedings of Artificial Intelligence and Applications },
+  pages={573--578},
+  year={2007}
+}
+```
+
+**TyDi QA**
+```bibtex
+@article{clark-etal-2020-tydi,
+    title = "{T}y{D}i {QA}: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages",
+    author = "Clark, Jonathan H.  and
+      Choi, Eunsol  and
+      Collins, Michael  and
+      Garrette, Dan  and
+      Kwiatkowski, Tom  and
+      Nikolaev, Vitaly  and
+      Palomaki, Jennimaria",
+    editor = "Johnson, Mark  and
+      Roark, Brian  and
+      Nenkova, Ani",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "8",
+    year = "2020",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2020.tacl-1.30",
+    doi = "10.1162/tacl_a_00317",
+    pages = "454--470",
+    abstract = "Confidently making progress on multilingual modeling requires challenging, trustworthy evaluations.
+    We present TyDi QA{---}a question answering dataset covering 11 typologically diverse languages with 204K
+    question-answer pairs. The languages of TyDi QA are diverse with regard to their typology{---}the set of
+    linguistic features each language expresses{---}such that we expect models performing well on this set to
+    generalize across a large number of the world{'}s languages. We present a quantitative analysis of the data
+    quality and example-level qualitative linguistic analyses of observed language phenomena that would not be found
+    in English-only corpora. To provide a realistic information-seeking task and avoid priming effects, questions are
+    written by people who want to know the answer, but don{'}t know the answer yet, and the data is collected directly
+    in each language without the use of translation.",
+}
+```
+
+**mLAMA**
+
+```bibtex
+@article{kassner2021multilingual,
+  author    = {Nora Kassner and
+               Philipp Dufter and
+               Hinrich Sch{\"{u}}tze},
+  title     = {Multilingual {LAMA:} Investigating Knowledge in Multilingual Pretrained
+               Language Models},
+  journal   = {CoRR},
+  volume    = {abs/2102.00894},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2102.00894},
+  archivePrefix = {arXiv},
+  eprint    = {2102.00894},
+  timestamp = {Tue, 09 Feb 2021 13:35:56 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2102-00894.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  note      = {to appear in EACL2021}
+}
+
 ```
