@@ -582,7 +582,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Size**: ~4M article pairs
 - **Links**: [Download](https://stor.akmal.dev/gigaword.tar.zst)
 
-**Indonesian Simple Summaries**
+**Indonesian Simple Summaries (Our Works)**
 
 - **Description**: Indonesian version of Simple Summaries
 - **Size**: ~10k pair
