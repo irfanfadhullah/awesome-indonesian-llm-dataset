@@ -8,7 +8,7 @@ A curated collection of high-quality Indonesian datasets for training Large Lang
 - [📋 TODO](#-todo)
 - [📊 Dataset Categories](#-dataset-categories)
     - [🧠 Natural Language Understanding](#-natural-language-understanding)
-    - [🔡 Token](#-token)
+    - [🔡 Token Classification](#-token-classification)
     - [📚 Knowledge Graphs](#-knowledge-graphs)
     - [🌐 Web Crawl \& Text Corpora](#-web-crawl--text-corpora)
     - [🗣️ Local Languages](#-local-languages)
@@ -19,6 +19,8 @@ A curated collection of high-quality Indonesian datasets for training Large Lang
     - [📝 Text Summarization](#-text-summarization)
     - [🌍 Machine Translation](#-machine-translation)
     - [📖 Dictionary \& Vocabulary](#-dictionary--vocabulary)
+    - [🤖 Pre-trained Models](#-pre-trained-models)
+    - [🛠️ Tools \& Libraries](#-tools--libraries)
 - [🚀 Quick Start](#-quick-start)
 - [🤝 Contributing](#-contributing)
 - [📚 Key Papers](#-key-papers)
@@ -132,38 +134,92 @@ Comprehensive collection of datasets for various NLP tasks:
     - [Hate Speech Detection](https://github.com/ialfina/id-hatespeech-detection) (713 tweets)
     - [Abusive Language Detection](https://github.com/okkyibrohim/id-abusive-language-detection)
     - [HoASA](https://huggingface.co/datasets/SEACrowd/hoasa)
-    - [Indonesian Clickbait Headlines](https://www.kaggle.com/datasets/andikawilliam/clickid)	
+    - [Indonesian Clickbait Headlines](https://www.kaggle.com/datasets/andikawilliam/clickid)
     - [CASA](https://huggingface.co/datasets/SEACrowd/casa)
     - [SmSA](https://huggingface.co/datasets/SEACrowd/smsa)
     - [WReTE](https://github.com/IndoNLP/indonlu/tree/master/dataset/wrete_entailment-ui)
     - [EmoT](https://huggingface.co/datasets/SEACrowd/emot)
     - [SentiWS](https://www.kaggle.com/datasets/rtatman/sentiment-lexicons-for-81-languages)
-
 - **Syntactic Parsing**:
     - [Indonesian Treebank](https://github.com/famrashel/idn-treebank) (1K parsed sentences)
     - [UD Indonesian](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
+
+
+#### Hate Speech \& Abusive Language Detection
+
+- **ID Multi-label Hate Speech**
+    - **Description**: 13,169 Indonesian tweets labeled for multi-label hate speech and abusive language
+    - **Labels**: Multiple categories of hate speech and abusive content
+    - **Links**: [GitHub Repository](https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection)
+    - **Paper**: [ACL 2019](https://www.aclweb.org/anthology/W19-3506.pdf)
+- **ID Abusive Language Detection**
+    - **Description**: 2,016 Indonesian tweets labeled as abusive/not offensive/offensive
+    - **Links**: [GitHub Repository](https://github.com/okkyibrohim/id-abusive-language-detection)
+    - **Paper**: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1877050918314583)
+- **ID Hate Speech Detection**
+    - **Description**: 713 Indonesian tweets labeled hate speech/non-hate speech
+    - **Links**: [GitHub Repository](https://github.com/ialfina/id-hatespeech-detection)
+    - **Paper**: [IEEE](https://ieeexplore.ieee.org/abstract/document/8355039)
+
 
 #### Translated Dataset (Our Works)
 
 - **OpenWebText-10K**: [Download](https://huggingface.co/datasets/irfanfadhullah/OpenWebText-Indonesia-10k/)
 - **FineWeb-Edu-25K**: [Download](https://huggingface.co/datasets/irfanfadhullah/FineWeb-Edu-25K/)
 
+
 #### QQPR-Triplets-ID
+
 - **Size**: 86K
 - **Link**: [Download](https://huggingface.co/datasets/robinsyihab/QQPR-triplets-ID)
 
 
-### 🔡 Token
+### 🔡 Token Classification
 
-#### Token Classification
+#### Named Entity Recognition (NER)
 
-- **List of the Dataset** 
+- **Product NER**
+    - **Description**: Dataset for Indonesian product NER labeling
+    - **Links**: [GitHub Repository](https://github.com/dziem/proner-labeled-text)
+- **NER-GRIT**
+    - **Description**: Indonesian NER corpus for research and development
+    - **Links**: [GitHub Repository](https://github.com/grit-id/nergrit-corpus)
+- **Singgalang NER Dataset**
+    - **Description**: Automatically generated NER corpus
+    - **Size**: 48K sentences
+    - **Links**: [GitHub Repository](https://github.com/ialfina/ner-dataset-modified-dee)
+- **nlp-experiments NER Dataset**
+    - **Description**: NER dataset for research purposes
+    - **Size**: 2,125 sentences
+    - **Links**: [GitHub Repository](https://github.com/yohanesgultom/nlp-experiments/tree/master/data/ner)
+
+
+#### POS Tagging \& Parsing
+
+- **List of the Dataset**
     - [BaPOS](https://github.com/IndoNLP/indonlu/tree/master/dataset/bapos_pos-idn)
     - [POSP](https://github.com/IndoNLP/indonlu/tree/master/dataset/posp_pos-prosa)
     - [NERP](https://github.com/IndoNLP/indonlu/tree/master/dataset/nerp_ner-prosa)
     - [KEPS](https://github.com/IndoNLP/indonlu/tree/master/dataset/keps_keyword-extraction-prosa)
     - [NERGrit](https://github.com/IndoNLP/indonlu/tree/master/dataset/nergrit_ner-grit)
     - [TermA](https://github.com/IndoNLP/indonlu/tree/master/dataset/terma_term-extraction-airy)
+- **IDN Tagged Corpus**
+    - **Description**: Comprehensive POS-tagged corpus
+    - **Size**: 10,000 annotated sentences, 250,000 tokens, 23 tags
+    - **Links**: [GitHub Repository](https://github.com/famrashel/idn-tagged-corpus)
+    - **Paper**: [Designing an Indonesian POS Tagset (PDF)](http://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
+- **UD Indonesian-GSD**
+    - **Description**: Universal Dependencies Indonesian dependency treebank
+    - **Links**: [GitHub Repository](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
+- **Kethu Treebank** (Constituency Parsing)
+    - **Description**: Indonesian constituency treebank
+    - **Size**: 1,030 sentences
+    - **Links**: [GitHub Repository](https://github.com/ialfina/kethu)
+- **Indonesian Treebank**
+    - **Description**: Manually tagged constituency treebank
+    - **Size**: 1,030 sentences
+    - **Links**: [GitHub Repository](https://github.com/famrashel/idn-treebank)
+
 
 ### 📚 Knowledge Graphs
 
@@ -209,32 +265,20 @@ Comprehensive collection of datasets for various NLP tasks:
 **Leipzig Corpora Collection**
 
 - **Size**: 74M+ sentences, 1.2B+ tokens
-- **Links**: [Leipzig Corpora](https://corpora.uni-leipzig.de/en?corpusId=ind_mixed_2013)
+- **Links**: [Leipzig Corpora 2013](https://corpora.uni-leipzig.de/en?corpusId=ind_mixed_2013) | [Leipzig Corpora 2022](https://corpora.wortschatz-leipzig.de/en?corpusId=ind_news_2022)
 
 **IndoNLU Benchmark**
 
 - **Size**: 4B words, 250M sentences
 - **Links**: [HuggingFace Models](https://huggingface.co/indobenchmark) | [Dataset](https://storage.googleapis.com/babert-pretraining/IndoNLU_finals/dataset/preprocessed/dataset_all_uncased_blankline.txt.xz) | [GitHub](https://github.com/indobenchmark/indonlu)
 
-**WiLI-2018**
-- **Size**: 235000 paragraphs of 235 languages
-- **Links**: [Zenodo Link](https://zenodo.org/records/841984)
-- **Local Language**: Indonesia, Javanese, Sundanese
+**Other Large Corpora**
 
-**WikiANN**
-- **Size**: Supports 176 of the 282 languages from the original WikiANN corpus
-- **Links**: [DropBox Link](https://www.dropbox.com/s/12h3qqog6q4bjve/panx_dataset.tar?dl=1)
-- **Local Language**: Indonesia, Javanese, Sundanese
+- **WiLI-2018**: [Zenodo Link](https://zenodo.org/records/841984) - 235000 paragraphs of 235 languages
+- **WikiANN**: [DropBox Link](https://www.dropbox.com/s/12h3qqog6q4bjve/panx_dataset.tar?dl=1) - Supports 176 languages
+- **Tatoeba**: [HuggingFace Link](https://huggingface.co/datasets/Helsinki-NLP/tatoeba) - 32G translation units in 2,539 bitexts
+- **QCRI Educational Domain Corpus**: [Link](https://opus.nlpl.eu/QED/en&es/v2.0a/QED) - 225 languages, 271,558 files
 
-**Tatoeba**
-- **Size**: 32G translation units in 2,539 bitexts. The whole data set covers 487 languages linked to each other in 4,024 language pairs.
-- **Links**: [Huggingface Link](https://huggingface.co/datasets/Helsinki-NLP/tatoeba)
-- **Local Language**: Indonesia, Javanese, Sundanese
-
-**The QCRI Educational Domain Corpus (formerly QCRI AMARA Corpus)**
-- **Size**: There are 225 languages, from	9,291 bitexts. The number of files are	271,558 with	371.76M tokens
-- **Links**: [Link](https://opus.nlpl.eu/QED/en&es/v2.0a/QED)
-- **Local Language**: Indonesia, Javanese
 
 #### Specialized Crawl Datasets
 
@@ -268,6 +312,13 @@ Comprehensive collection of datasets for various NLP tasks:
 - **Sources**: CC100, data.statmt.org, Wikipedia
 - **Links**: [Download](https://stor.akmal.dev/jv-text/)
 
+**Historical News Corpora**
+
+- **Kompas Online Collection** (2001–2002)
+    - **Links**: [Download](http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/kompas.zip)
+- **Tempo Online Collection** (2000–2002)
+    - **Links**: [Download](http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/tempo.zip)
+
 
 #### HuggingFace Datasets Collection
 
@@ -277,6 +328,10 @@ Additional datasets available on HuggingFace:
 - [IndoWiki by sabilmakbar](https://huggingface.co/datasets/sabilmakbar/indo_wiki)
 - [Cendol Collection v1](https://huggingface.co/datasets/indonlp/cendol_collection_v1)
 - [Cendol Collection v2](https://huggingface.co/datasets/indonlp/cendol_collection_v2)
+- [IndoNLG](https://github.com/indobenchmark/indonlg) - Natural language generation datasets
+- [IndoBERTweet](https://github.com/indolem/IndoBERTweet) - Indonesian Twitter corpus
+- [ID Clickbait News](https://huggingface.co/datasets/id_clickbait)
+- [ID Newspapers 2018](https://huggingface.co/datasets/id_newspapers_2018)
 
 
 ### 🗣️ Local Languages
@@ -424,6 +479,16 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Focus**: Word order and structure importance
 - **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesia_dataset/tree/master/paraphrase/PAWS) | [Original](https://github.com/google-research-datasets/paws)
 
+**Quora Paraphrasing ID**
+
+- **Description**: Indonesian adaptation of Quora paraphrase pairs
+- **Links**: [GitHub Repository](https://github.com/louisowen6/quora_paraphrasing_id)
+
+**Indonesian PAWS**
+
+- **Description**: Translated PAWS dataset with 100K human paraphrase pairs
+- **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesian_datasets/tree/master/paraphrase/paws)
+
 **ParaNMT-50M (Indonesian)**
 
 - **Size**: Subset of 50M+ English paraphrase pairs
@@ -464,18 +529,26 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesia_dataset/tree/master/question-answering/mathematics_dataset) | [Original](https://github.com/deepmind/mathematics_dataset)
 
 **FacQA**
-- **Description**: FacQA: The goal of the FacQA dataset is to find the answer to a question from a provided short passage from a news article
-- **Source**: Translated Stanford Question Answering Dataset
-- **Links**: [Download](https://github.com/IndoNLP/indonlu/tree/master/dataset/facqa_qa-factoid-itb) | [Huggingface](https://huggingface.co/datasets/SEACrowd/facqa)
+
+- **Description**: Factoid question answering from news articles
+- **Source**: Find answers from provided short passages
+- **Links**: [GitHub](https://github.com/IndoNLP/indonlu/tree/master/dataset/facqa_qa-factoid-itb) | [HuggingFace](https://huggingface.co/datasets/SEACrowd/facqa)
 
 **TyDi QA**
-- **Description**: TyDi QA is a question answering dataset covering 11 typologically diverse languages with 204K question-answer pairs
-- **Source**: https://github.com/google-research-datasets/tydiqa
-- **Links**: [Download](https://huggingface.co/datasets/SEACrowd/tydiqa)
+
+- **Description**: Question answering dataset covering 11 typologically diverse languages with 204K question-answer pairs
+- **Source**: [GitHub](https://github.com/google-research-datasets/tydiqa)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/SEACrowd/tydiqa)
 
 **mLAMA**
-- **Description**: mLAMA: Multilingual cersion of LAnguage Model Analysis dataset
-- **Links**: [Download](https://huggingface.co/datasets/cis-lmu/m_lama)
+
+- **Description**: Multilingual version of Language Model Analysis dataset
+- **Links**: [HuggingFace](https://huggingface.co/datasets/cis-lmu/m_lama)
+
+**QED (Question-Answer pairs multilingual)**
+
+- **Description**: Educational domain corpus with Indonesian data
+- **Links**: [Opus](https://opus.nlpl.eu/QED.php)
 
 
 ### 🎙️ Speech \& Audio
@@ -488,6 +561,16 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Quality**: Phonetically balanced
 - **Access**: Academic/non-commercial use
 - **Links**: [NII Research](http://research.nii.ac.jp/src/en/TITML-IDN.html)
+
+**Mozilla Common Voice (Indonesian)**
+
+- **Description**: Crowdsourced speech recognition dataset
+- **Links**: [HuggingFace](https://huggingface.co/datasets/common_voice)
+
+**CoVoST2**
+
+- **Description**: Speech translation dataset including Indonesian
+- **Links**: [HuggingFace](https://huggingface.co/datasets/covost2)
 
 **Large Javanese ASR Dataset**
 
@@ -526,9 +609,11 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Note**: Research use only
 
 **VoxLingua107 Dataset**
-- **Description**: VoxLingua107 is a speech dataset for training spoken language identification models
-- **Source**: https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/
-- **Links**: [Download](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/id.zip)
+
+- **Description**: Speech dataset for training spoken language identification models
+- **Source**: [VoxLingua107](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/)
+- **Links**: [Indonesian Download](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/id.zip)
+
 
 ### 📝 Text Summarization
 
@@ -551,16 +636,19 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Paper**: IALP 2018
 
 **XLSum**
-- **Size**: The dataset covers 45 languages ranging from low to high-resource
-- **Split**: Train:38242	Dev:4780	Test:4780	Total:47802
-- **Features**: XL-Sum is highly abstractive, concise, and of high quality, as indicated by human and intrinsic evaluation.
-- **Links**: [Data Download](https://huggingface.co/datasets/csebuetnlp/xlsum)
+
+- **Size**: 45 languages ranging from low to high-resource
+- **Split**: Train:38242  Dev:4780  Test:4780 Total:47802
+- **Features**: Highly abstractive, concise, and high quality
+- **Links**: [HuggingFace](https://huggingface.co/datasets/csebuetnlp/xlsum)
 
 **WikiLingua**
-- **Size**: The dataset includes ~770k article and summary pairs in 18 languages from WikiHow
+
+- **Size**: ~770k article and summary pairs in 18 languages from WikiHow
 - **Categories**: 17 languages
-- **Features**: They extract gold-standard article-summary alignments across languages by aligning the images that are used to describe each how-to step in an article.
+- **Features**: Gold-standard article-summary alignments across languages
 - **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | [Data Download](https://drive.google.com/file/d/1sTCB5NDPq6vUOlxR29DbvSssErvXLD1d/view?usp=sharing)
+
 
 #### Translated Summarization Datasets
 
@@ -587,6 +675,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Description**: Indonesian version of Simple Summaries
 - **Size**: ~10k pair
 - **Links**: [Download](https://huggingface.co/datasets/irfanfadhullah/indonesian-simple-summaries)
+
 
 ### 🌍 Machine Translation
 
@@ -635,6 +724,14 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Size**: 45K sentences, ~1M tokens
 - **Links**: [LINDAT Repository](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0005-BF85-F)
 
+**Additional Parallel Corpora**
+
+- **TAPACO**: [HuggingFace](https://huggingface.co/datasets/tapaco)
+- **opus100**: [HuggingFace](https://huggingface.co/datasets/opus100)
+- **PANL BPPT**: [HuggingFace](https://huggingface.co/datasets/id_panl_bppt)
+- **Bible-uedin**: [Opus](https://opus.nlpl.eu/bible-uedin.php)
+- **Open Subtitles**: [HuggingFace](https://huggingface.co/datasets/open_subtitles)
+
 
 ### 📖 Dictionary \& Vocabulary
 
@@ -652,6 +749,238 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Purpose**: Text normalization for informal language
 - **Links**: [GitHub Repository](https://github.com/nasalsabila/kamus-alay)
 - **Paper**: [IEEE 2018](https://ieeexplore.ieee.org/abstract/document/8629151)
+
+
+#### Synonym and Semantic Relations
+
+**Tesaurus**
+
+- **Description**: Indonesian synonym, antonym, and word relationships
+- **Links**: [GitHub Repository](https://github.com/victoriasovereigne/tesaurus)
+
+**WordNet Bahasa**
+
+- **Description**: Semantic dictionary inspired by Princeton WordNet for Malay and Indonesian
+- **Links**: [SourceForge](https://sourceforge.net/p/wn-msa/tab/HEAD/tree/trunk/)
+
+**id-wordnet npm package**
+
+- **Links**: [NPM Package](https://www.npmjs.com/package/id-wordnet)
+
+
+#### Word Analogy
+
+**KAWAT**
+
+- **Description**: Word analogy dataset with semantic and syntactic Indonesian word relations
+- **Links**: [GitHub Repository](https://github.com/kata-ai/kawat)
+
+
+#### Formal-Informal Mapping
+
+**STIF-Indonesia**
+
+- **Description**: Dataset for Indonesian formal-informal style conversion
+- **Links**: [GitHub Repository](https://github.com/haryoa/stif-indonesia)
+
+**IndoCollex**
+
+- **Description**: Comprehensive lexical collection for formal-informal mapping
+- **Links**: [GitHub Repository](https://github.com/haryoa/indo-collex)
+
+**Indonesian Slang Mapping**
+
+- **Description**: Large dictionary mapping slang/alay words to formal Indonesian
+- **Links**: [CSV File](https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection/blob/master/new_kamusalay.csv)
+
+
+#### Sentiment Lexicons
+
+**Comprehensive Sentiment Word Collections**
+
+- **Negative sentiment word sets**:
+    - [negatif_ta2.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/negatif_ta2.txt)
+    - [negative_add.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/negative_add.txt)
+    - [negative_keyword.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/negative_keyword.txt)
+    - [ID-OpinionWords negative](https://github.com/masdevid/ID-OpinionWords/blob/master/negative.txt)
+- **Positive sentiment word sets**:
+    - [positif_ta2.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/positif_ta2.txt)
+    - [positive_add.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/positive_add.txt)
+    - [positive_keyword.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/positive_keyword.txt)
+    - [ID-OpinionWords positive](https://github.com/masdevid/ID-OpinionWords/blob/master/positive.txt)
+- **Score-based lexicons**:
+    - [SentiStrengthID](https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/sentimentword.txt)
+    - [InSet Lexicon](https://github.com/fajri91/InSet)
+- **HuggingFace dataset**: [senti_lex](https://huggingface.co/datasets/senti_lex)
+
+
+#### Root Words
+
+- [rootword.txt](https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/rootword.txt)
+- [kata-dasar.original.txt](https://github.com/sastrawi/sastrawi/blob/master/data/kata-dasar.original.txt)
+- [kata-dasar.txt](https://github.com/sastrawi/sastrawi/blob/master/data/kata-dasar.txt)
+- [kamus-kata-dasar.csv](https://github.com/prasastoadi/serangkai/blob/master/serangkai/kamus/data/kamus-kata-dasar.csv)
+- [Combined root words](https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_root_words.txt)
+
+
+#### Slang Words
+
+- [kbba.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/kbba.txt)
+- [slangword.txt](https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/slangword.txt)
+- [formalizationDict.txt](https://github.com/panggi/pujangga/blob/master/resource/formalization/formalizationDict.txt)
+- [Combined slang words](https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_slang_words.txt)
+
+
+#### Stopwords
+
+- [stopwordsID.txt](https://github.com/yasirutomo/python-sentianalysis-id/blob/master/data/feature_list/stopwordsID.txt)
+- [stopword.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/stopword.txt)
+- [elang stopwords-list](https://github.com/abhimantramb/elang/tree/master/word2vec/utils/stopwords-list)
+- [Combined stopwords](https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_stop_words.txt)
+
+
+#### Emoticon \& Emoji
+
+- [emoticon.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/emoticon.txt)
+- [Emoji synonyms Indonesian](https://github.com/jolicode/emoji-search/blob/master/synonyms/cldr-emoji-annotation-synonyms-id.txt)
+- [SentiStrengthID Emoticon](https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/emoticon.txt)
+
+
+#### Acronyms
+
+- [ramaprakoso acronyms](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/acronym.txt)
+- [pujangga acronyms](https://github.com/panggi/pujangga/blob/master/resource/sentencedetector/acronym.txt)
+- [Wiktionary Indonesian Acronyms](https://id.wiktionary.org/wiki/Lampiran:Daftar_singkatan_dan_akronim_dalam_bahasa_Indonesia#A)
+
+
+#### Indonesia Regions \& Administrative Data
+
+- [elang region](https://github.com/abhimantramb/elang/blob/master/word2vec/utils/indonesian-region.txt)
+- [Wilayah Administratif Indonesia CSV](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia/tree/master/csv)
+- [Indonesia Postal Code CSV](https://github.com/pentagonal/Indonesia-Postal-Code/tree/master/Csv)
+- [Country list](https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/country.txt)
+- [Region list](https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/lpre.txt)
+- [Title of Name](https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/ppre.txt)
+- [Organization titles](https://github.com/panggi/pujangga/blob/master/resource/reference/opre.txt)
+- [Gender by Name dataset](https://github.com/seuriously/genderprediction/blob/master/namatraining.txt)
+
+
+### 🤖 Pre-trained Models
+
+#### Transformer-based Models
+
+**Indo-BERT**
+
+- **Description**: Indonesian BERT model for various NLP tasks
+- **Repository**: [GitHub](https://github.com/indobenchmark/indonlu)
+- **Models**: [HuggingFace](https://huggingface.co/indobenchmark/indobert-base-p1)
+
+**Indo-BERTweet**
+
+- **Description**: BERT model specifically trained on Indonesian tweets
+- **Repository**: [GitHub](https://github.com/indolem/IndoBERTweet)
+- **Model**: [HuggingFace](https://huggingface.co/indolem/indobertweet-base-uncased)
+
+**Other Transformer Models**
+
+- **Description**: Collection of Indonesian RoBERTa, DistilBERT, and other transformer models
+- **Links**: [GitHub Repository](https://github.com/cahya-wirawan/indonesian-language-models/tree/master/Transformers)
+
+
+#### Word Embeddings
+
+Various pre-trained word embeddings are available including:
+
+- **FastText**: Indonesian word vectors
+- **Word2Vec**: Pre-trained Indonesian embeddings
+- **Polyglot**: Multilingual embeddings including Indonesian
+
+
+### 🛠️ Tools \& Libraries
+
+#### NLP Processing Tools
+
+**Pujangga REST API**
+
+- **Description**: Comprehensive Indonesian NLP API
+- **Links**: [GitHub Repository](https://github.com/panggi/pujangga)
+
+**Sastrawi Stemmer**
+
+- **Description**: Indonesian stemmer library
+- **Links**: [GitHub Repository](https://github.com/sastrawi/sastrawi)
+
+**NLP-ID**
+
+- **Description**: Indonesian NLP toolkit
+- **Links**: [GitHub Repository](https://github.com/kumparan/nlp-id)
+
+**MorphInd**
+
+- **Description**: Indonesian morphological analyzer
+- **Links**: [Website](http://septinalarasati.com/morphind/)
+
+**INDRA**
+
+- **Description**: Indonesian dependency parser
+- **Links**: [GitHub Repository](https://github.com/davidmoeljadi/INDRA)
+
+**Indonesian Typo Checker**
+
+- **Description**: Spelling correction tool for Indonesian
+- **Links**: [GitHub Repository](https://github.com/mamat-rahmat/checker_id)
+
+
+#### Framework Integration
+
+**Flair NLP**
+
+- **Description**: Framework with Indonesian language support
+- **Links**: [GitHub Repository](https://github.com/flairNLP/flair)
+
+**spaCy Bahasa Indonesia**
+
+- **Description**: spaCy extension for Indonesian
+- **Links**: [GitHub Repository](https://github.com/explosion/spaCy)
+- **Tutorial**: [spaCy Bahasa Indonesia Guide](https://bagas.me/spacy-bahasa-indonesia.html)
+
+
+#### Miscellaneous Utilities
+
+- [nlp-experiments](https://github.com/yohanesgultom/nlp-experiments)
+- [python-sentianalysis-id](https://github.com/yasirutomo/python-sentianalysis-id)
+- [Analisis-Sentimen-ID](https://github.com/riochr17/Analisis-Sentimen-ID)
+- [indonesia-ner](https://github.com/yusufsyaifudin/indonesia-ner)
+
+
+#### Poetry \& Text Generation
+
+**Indonesian Poetry \& Pantun Generator**
+
+- **Description**: Collection and generation tools for Indonesian poetry
+- **Links**: [GitHub Repository](https://github.com/ilhamfp/puisi-pantun-generator)
+
+
+#### Spelling Correction
+
+**Norvig's Spell Corrector (Indonesian Adaptation)**
+
+- **Description**: Adaptation of Norvig's spell corrector for Bahasa Indonesia
+- **Original**: [Norvig's Algorithm](https://norvig.com/spell-correct.html)
+
+
+#### Social Media Scraping
+
+**GetOldTweets3**
+
+- **Description**: Twitter scraping without API requirements
+- **Links**: [GitHub Repository](https://github.com/Mottl/GetOldTweets3)
+
+**Tweepy**
+
+- **Description**: Twitter API wrapper
+- **Documentation**: [Tweepy Docs](http://docs.tweepy.org/en/latest/)
+- **Tutorial**: [How to Scrape Tweets](https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1)
 
 
 ## 🚀 Quick Start
@@ -744,6 +1073,11 @@ When adding new datasets, please include:
 - **NusaWrites**: Cahyawijaya et al., AACL-IJCNLP 2023
 - **IndoCareer**: Koto, NAACL HLT 2025
 - **IndoCloze**: Koto et al., CSRR at ACL 2022 (**Best Paper Award**)
+- **POS Tagging Bahasa Indonesia with Flair NLP**: [Medium Article](https://medium.com/@puspitakaban/pos-tagging-bahasa-indonesia-dengan-flair-nlp-c12e45542860)
+- **Indonesian POS Tagset Design**: [PDF](http://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
+- **Sentiment Analysis Indonesian Twitter Dataset**: [ResearchGate](https://www.researchgate.net/publication/338409000_Dataset_Indonesia_untuk_Analisis_Sentimen)
+- **Hate Speech Multi-label Classification**: [ACL 2019](https://www.aclweb.org/anthology/W19-3506.pdf)
+- **Indonesian Treebank Workshop**: [NTU Workshop Slides](http://compling.hss.ntu.edu.sg/events/2016-ws-wn-bahasa/pdfx/manurung.pdf)
 
 
 ## ⭐ Star This Repository
