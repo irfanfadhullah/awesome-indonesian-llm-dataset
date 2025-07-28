@@ -1,6 +1,6 @@
 [**🏠 Home**](/)
 
-[**📊 Dataset Categories**](data/00_dataset_categories.md)
+[**📊 Dataset Categories**](#)
 
 * [🧠 Natural Language Understanding](data/01_natural_language_understanding.md)
 * [🔢 IndoNLI Dataset](data/02_token_classification.md)
@@ -17,11 +17,13 @@
 * [🌍 Machine Translation](data/13_pre_trained_models.md)
 * [📖 Dictionary & Vocabulary](data/14_tools_libraries.md)
 
-**🔗 Collections**
-* [🤗 HuggingFace Datasets](data/huggingface.md)
+[**🔗 Collections**](#)
 
-**🚀 Quick Links**
-* [📊 All Categories](#dataset-categories)
-* [🤝 Contributing](#contributing)
-* [📚 Key Papers](#key-papers)
+* [🤗 HuggingFace Datasets](https://huggingface.co/irfanfadhullah)
+
+[**🚀 Quick Links**](#)
+
+* [📊 All Categories](/data/00_dataset_categories.md)
+* [🤝 Contributing](#contributin)
+* [📚 Key Papers](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset#key-papers)
 * [⭐ Star Repository](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset)
