@@ -32,21 +32,20 @@
       loadNavbar: true,
       maxLevel: 4,
       subMaxLevel: 3,
-      auto2top: true,           // Ensures scrolling to top when navigating
-      routerMode: 'hash',       // Ensures hash-based routing works
-      relativePath: false,      // Keeps absolute paths for anchors
+      auto2top: true,
+      executeScript: true,
+      // Add these for better anchor handling
+      relativePath: false,
+      routerMode: 'hash', // Ensures hash-based routing works
       search: {
         maxAge: 86400000,
         paths: 'auto',
         placeholder: 'Search datasets...',
         noData: 'No results found.',
         depth: 6
-      },
-      executeScript: true,
+      }
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="./docsify-fix-pageload-scroll.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
