@@ -1030,7 +1030,7 @@ Various pre-trained word embeddings are available including:
 
 ## 🚀 Quick Start
 
-### Loading Datasets
+### Loading for Several Datasets
 
 **From HuggingFace:**
 
