@@ -19,41 +19,6 @@
       max-width: 30px;
       margin-right: 10px;
     }
-    
-    /* Collapsible sidebar styles */
-    .sidebar-parent {
-      cursor: pointer;
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-    
-    .sidebar-parent::after {
-      content: '▼';
-      font-size: 12px;
-      margin-left: auto;
-      margin-right: 10px;
-      transition: transform 0.3s ease;
-    }
-    
-    .sidebar-parent.collapsed::after {
-      transform: rotate(-90deg);
-    }
-    
-    .sidebar-children {
-      transition: all 0.3s ease;
-      overflow: hidden;
-    }
-    
-    .sidebar-children.hidden {
-      max-height: 0;
-      opacity: 0;
-    }
-    
-    .sidebar-children.visible {
-      max-height: 1000px;
-      opacity: 1;
-    }
   </style>
 </head>
 <body>
@@ -69,97 +34,17 @@
       subMaxLevel: 3,
       auto2top: true,
       executeScript: true,
+      // Add these for better anchor handling
       relativePath: false,
-      routerMode: 'hash',
+      routerMode: 'hash', // Ensures hash-based routing works
       search: {
         maxAge: 86400000,
         paths: 'auto',
         placeholder: 'Search datasets...',
         noData: 'No results found.',
         depth: 6
-      },
-      plugins: [
-        function(hook, vm) {
-          hook.doneEach(function() {
-            initCollapsibleSidebar();
-          });
-        }
-      ]
-    }
-
-    function initCollapsibleSidebar() {
-      // Wait a bit for the sidebar to be fully rendered
-      setTimeout(() => {
-        const sidebar = document.querySelector('.sidebar-nav');
-        if (!sidebar) return;
-
-        // Find all potential parent items (items that have following ul elements)
-        const allListItems = sidebar.querySelectorAll('li');
-        
-        allListItems.forEach(li => {
-          const link = li.querySelector('a');
-          const nextElement = li.nextElementSibling;
-          
-          // Check if this item has children (next sibling is a ul)
-          if (nextElement && nextElement.tagName === 'UL') {
-            // Mark as parent and add click handler
-            link.classList.add('sidebar-parent');
-            nextElement.classList.add('sidebar-children', 'visible');
-            
-            // Remove any existing click handlers
-            link.removeEventListener('click', handleParentClick);
-            link.addEventListener('click', handleParentClick);
-          }
-          
-          // Also check for nested ul within the same li
-          const nestedUl = li.querySelector('ul');
-          if (nestedUl && !nextElement) {
-            link.classList.add('sidebar-parent');
-            nestedUl.classList.add('sidebar-children', 'visible');
-            
-            link.removeEventListener('click', handleParentClick);
-            link.addEventListener('click', handleParentClick);
-          }
-        });
-      }, 100);
-    }
-
-    function handleParentClick(e) {
-      // Only prevent default if this is a parent item
-      if (e.target.classList.contains('sidebar-parent')) {
-        e.preventDefault();
-        
-        const parentLink = e.target;
-        const li = parentLink.closest('li');
-        
-        // Find children - check both next sibling and nested ul
-        let childrenUl = li.nextElementSibling;
-        if (childrenUl && childrenUl.tagName !== 'UL') {
-          childrenUl = li.querySelector('ul');
-        }
-        if (!childrenUl) {
-          childrenUl = li.querySelector('ul');
-        }
-        
-        if (childrenUl) {
-          // Toggle visibility
-          if (childrenUl.classList.contains('visible')) {
-            childrenUl.classList.remove('visible');
-            childrenUl.classList.add('hidden');
-            parentLink.classList.add('collapsed');
-          } else {
-            childrenUl.classList.remove('hidden');
-            childrenUl.classList.add('visible');
-            parentLink.classList.remove('collapsed');
-          }
-        }
       }
     }
-
-    // Initialize when page loads
-    document.addEventListener('DOMContentLoaded', function() {
-      initCollapsibleSidebar();
-    });
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
