@@ -1247,9 +1247,14 @@ When using datasets from this collection, please cite this repository:
 @article{Hendria2023MSVDID,
   title={{MSVD}-{I}ndonesian: A Benchmark for Multimodal Video-Text Tasks in Indonesian},
   author={Willy Fitra Hendria},
-  journal={arXiv preprint arXiv:2306.11341},
-  year={2023}
+  journal={arXiv preprint},
+  year={2023},
+  eprint={2306.11341},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2306.11341}
 }
+
 ```
 
 **NusaWrites:**
