@@ -6,21 +6,36 @@ A curated collection of high-quality Indonesian datasets for training Large Lang
 
 - [🎯 Overview](#-overview)
 - [📋 TODO](#-todo)
-- [📊 Dataset Categories](#-dataset-categories)
-    - [🧠 Natural Language Understanding](#-natural-language-understanding)
-    - [🔡 Token Classification](#-token-classification)
-    - [📚 Knowledge Graphs](#-knowledge-graphs)
+- [📊 Dataset Categories](#-dataset-categories)  
+  📄 [Go to overview file](data/00_dataset_categories.md)
+    - [🧠 Natural Language Understanding](#-natural-language-understanding)  
+      📄 [Go to detailed file](data/01_natural_language_understanding.md)
+    - [🔡 Token Classification](#-token-classification)  
+      📄 [Go to detailed file](data/02_token_classification.md)
+    - [📚 Knowledge Graphs](#-knowledge-graphs)  
+      📄 [Go to detailed file](data/03_knowledge_graphs.md)
     - [🌐 Web Crawl \& Text Corpora](#-web-crawl--text-corpora)
-    - [🗣️ Local Languages](#-local-languages)
-    - [🖼️ Multimodal \& Vision-Language](#-multimodal--vision-language)
+      📄 [Go to detailed file](data/04_web_crawl_text_corpora.md)
+    - [🗣️ Local Languages](#️-local-languages)
+      📄 [Go to detailed file](data/05_local_languages.md)
+    - [🖼️ Multimodal \& Vision-Language](#️-multimodal--vision-language)
+      📄 [Go to detailed file](data/06_multimodal_vision_language.md)
     - [🔄 Paraphrase \& Text Similarity](#-paraphrase--text-similarity)
+      📄 [Go to detailed file](data/07_paraphrase_text_similarity.md)
     - [❓ Question Answering](#-question-answering)
-    - [🎙️ Speech \& Audio](#-speech--audio)
+      📄 [Go to detailed file](data/08_question_answering.md)
+    - [🎙️ Speech \& Audio](#️-speech--audio)
+      📄 [Go to detailed file](data/09_speech_audio.md)
     - [📝 Text Summarization](#-text-summarization)
+      📄 [Go to detailed file](data/10_text_summarization.md)
     - [🌍 Machine Translation](#-machine-translation)
+      📄 [Go to detailed file](data/11_machine_translation.md)
     - [📖 Dictionary \& Vocabulary](#-dictionary--vocabulary)
+      📄 [Go to detailed file](data/12_dictionary_vocabulary.md)
     - [🤖 Pre-trained Models](#-pre-trained-models)
-    - [🛠️ Tools \& Libraries](#-tools--libraries)
+      📄 [Go to detailed file](data/13_pre_trained_models.md)
+    - [🛠️ Tools \& Libraries](#️-tools--libraries)
+      📄 [Go to detailed file](data/14_tools_libraries.md)
 - [🚀 Quick Start](#-quick-start)
 - [🤝 Contributing](#-contributing)
 - [📚 Key Papers](#-key-papers)
@@ -102,7 +117,11 @@ Please check our [GitHub Issues](https://github.com/irfanfadhullah/awesome-indon
 
 ## 📊 Dataset Categories
 
+📄 [Go to overview file](data/00_dataset_categories.md)
+
 ### 🧠 Natural Language Understanding
+
+📄 [Go to detailed file](data/01_natural_language_understanding.md)
 
 #### IndoNLI: Natural Language Inference Dataset
 
@@ -176,6 +195,8 @@ Comprehensive collection of datasets for various NLP tasks:
 
 ### 🔡 Token Classification
 
+📄 [Go to detailed file](data/02_token_classification.md)
+
 #### Named Entity Recognition (NER)
 
 - **Product NER**
@@ -223,6 +244,8 @@ Comprehensive collection of datasets for various NLP tasks:
 
 ### 📚 Knowledge Graphs
 
+📄 [Go to detailed file](data/03_knowledge_graphs.md)
+
 #### IndoWiki: Indonesian Knowledge Graph
 
 - **Description**: Knowledge graph from WikiData aligned with Indonesian Wikipedia
@@ -238,6 +261,8 @@ Comprehensive collection of datasets for various NLP tasks:
 
 
 ### 🌐 Web Crawl \& Text Corpora
+
+📄 [Go to detailed file](data/04_web_crawl_text_corpora.md)
 
 #### Large-Scale Text Collections
 
@@ -336,6 +361,8 @@ Additional datasets available on HuggingFace:
 
 ### 🗣️ Local Languages
 
+📄 [Go to detailed file](data/05_local_languages.md)
+
 #### NusaX-MT: Multilingual Translation Dataset
 
 - **Languages**: 12 languages including Indonesian + 10 local languages
@@ -410,6 +437,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 ### 🖼️ Multimodal \& Vision-Language
 
+📄 [Go to detailed file](data/06_multimodal_vision_language.md)
+
 #### Vision-Language Datasets
 
 **Conceptual Captions (Indonesian)**
@@ -470,6 +499,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 ### 🔄 Paraphrase \& Text Similarity
 
+📄 [Go to detailed file](data/07_paraphrase_text_similarity.md)
+
 #### Paraphrase Collections
 
 **PAWS (Indonesian)**
@@ -513,6 +544,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 ### ❓ Question Answering
 
+📄 [Go to detailed file](data/08_question_answering.md)
+
 #### QA Datasets
 
 **SQuAD (Indonesian)**
@@ -552,6 +585,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 
 ### 🎙️ Speech \& Audio
+
+📄 [Go to detailed file](data/09_speech_audio.md)
 
 #### Speech Recognition
 
@@ -617,6 +652,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 ### 📝 Text Summarization
 
+📄 [Go to detailed file](data/10_text_summarization.md)
+
 #### Summarization Corpora
 
 **Liputan6**
@@ -679,6 +716,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 ### 🌍 Machine Translation
 
+📄 [Go to detailed file](data/11_machine_translation.md)
+
 #### Translation Pairs
 
 **OPUS Parallel Corpus**
@@ -734,6 +773,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 
 ### 📖 Dictionary \& Vocabulary
+
+📄 [Go to detailed file](data/12_dictionary_vocabulary.md)
 
 #### Lexical Resources
 
@@ -867,6 +908,8 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 ### 🤖 Pre-trained Models
 
+📄 [Go to detailed file](data/13_pre_trained_models.md)
+
 #### Transformer-based Models
 
 **Indo-BERT**
@@ -897,6 +940,8 @@ Various pre-trained word embeddings are available including:
 
 
 ### 🛠️ Tools \& Libraries
+
+📄 [Go to detailed file](data/14_tools_libraries.md)
 
 #### NLP Processing Tools
 
