@@ -41,15 +41,6 @@
       },
       auto2top: true,
       executeScript: true,
-      plugins: [
-        function(hook, vm) {
-          hook.beforeEach(function (html) {
-            var url = 'https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset/blob/main/' + vm.route.file
-            var editHtml = '[📝 Edit this page](' + url + ')\n\n'
-            return editHtml + html
-          })
-        }
-      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
