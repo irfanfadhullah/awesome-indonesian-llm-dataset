@@ -1,0 +1,5 @@
+* [🏠 Home](/)
+* [📊 Categories](#dataset-categories)
+* [🤗 HuggingFace](https://huggingface.co/datasets?search=indonesian)
+* [📖 Papers](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset#key-papers)
+* [⭐ GitHub](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset)
