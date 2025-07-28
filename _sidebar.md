@@ -1,4 +1,4 @@
-* [🏠 Home](/)
+[**🏠 Home**](/)
 
 [**📊 Dataset Categories**](data/00_dataset_categories.md)
 
