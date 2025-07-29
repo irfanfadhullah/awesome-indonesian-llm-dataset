@@ -651,6 +651,11 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Source**: [VoxLingua107](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/)
 - **Links**: [Indonesian Download](https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/id.zip)
 
+**LUMINA (Linguistic Unified Multimodal Indonesian Natural Audio-Visual)**
+
+- **Description**: Constrained audio-visual dataset for speech perception research- **Size**: 14 native speakers (9 male, 5 female), ~1,000 sentences each- **Total**: Approximately 14,000 utterances
+- **Quality**: High-quality facial recordings with controlled environment- **Access**: Open access via Creative Commons Attribution 4.0 International- **Links**: [Mendeley Data](https://data.mendeley.com/datasets/8fw93k4rny/4)- **DOI**: 10.17632/8fw93k4rny.4
+
 
 ### 📝 Text Summarization
 
@@ -2357,5 +2362,22 @@ location = {Hanoi, Vietnam}
     author={Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown},
     booktitle={Findings of EMNLP, 2020},
     year={2020}
+}
+```
+
+**LUMINA Dataset**
+```bibtex
+@article{SETYANINGSIH2024110279,
+title = {LUMINA: Linguistic unified multimodal Indonesian natural audio-visual dataset},
+journal = {Data in Brief},
+volume = {54},
+pages = {110279},
+year = {2024},
+issn = {2352-3409},
+doi = {https://doi.org/10.1016/j.dib.2024.110279},
+url = {https://www.sciencedirect.com/science/article/pii/S2352340924002488},
+author = {Eka Rahayu Setyaningsih and Anik Nur Handayani and Wahyu Sakti Gunawan Irianto and Yosi Kristian and Christian Trisno Sen Long Chen},
+keywords = {Constrained audio-visual dataset, Lips reading, Speech synthesis, Face processing, Computer vision},
+abstract = {The LUMINA (Linguistic Unified Multimodal Indonesian Natural Audio-Visual) Dataset is a carefully curated constrained audio-visual dataset designed to support research in the field of speech perception. Spoken exclusively in Indonesian, LUMINA contains high-quality audio-visual recordings featuring 14 native speakers, including 9 males and 5 females. Each speaker contributes approximately 1,000 sentences, producing a rich and diverse data collection. The recorded videos focus on facial recordings, capturing essential visual cues and expressions that accompany speech. This extensive dataset provides a valuable resource for understanding how humans perceive and process spoken language, paving the way for speech recognition and synthesis technology advancements.}
 }
 ```
