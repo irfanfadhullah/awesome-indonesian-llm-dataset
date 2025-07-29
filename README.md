@@ -8,35 +8,35 @@ You can visit the web version of this repository at this [link](https://irfanfad
 
 - [🎯 Overview](#-overview)
 - [📋 TODO](#-todo)
-- [📊 Dataset Categories](#-dataset-categories)  
+- [📊 Dataset Categories](#-dataset-categories)\
   📄 [Go to overview file](data/00_dataset_categories.md)
-    - [🧠 Natural Language Understanding](#-natural-language-understanding)  
+    - [🧠 Natural Language Understanding](#-natural-language-understanding)\
       📄 [Go to detailed file](data/01_natural_language_understanding.md)
-    - [🔡 Token Classification](#-token-classification)  
+    - [🔡 Token Classification](#-token-classification)\
       📄 [Go to detailed file](data/02_token_classification.md)
-    - [📚 Knowledge Graphs](#-knowledge-graphs)  
+    - [📚 Knowledge Graphs](#-knowledge-graphs)\
       📄 [Go to detailed file](data/03_knowledge_graphs.md)
-    - [🌐 Web Crawl \& Text Corpora](#-web-crawl--text-corpora)
+    - [🌐 Web Crawl \& Text Corpora](#-web-crawl--text-corpora)\
       📄 [Go to detailed file](data/04_web_crawl_text_corpora.md)
-    - [🗣️ Local Languages](#️-local-languages)
+    - [🗣️ Local Languages](#️-local-languages)\
       📄 [Go to detailed file](data/05_local_languages.md)
     - [🖼️ Multimodal \& Vision-Language](#️-multimodal--vision-language)
-      📄 [Go to detailed file](data/06_multimodal_vision_language.md)
-    - [🔄 Paraphrase \& Text Similarity](#-paraphrase--text-similarity)
+    - 📄 [Go to detailed file](data/06_multimodal_vision_language.md)
+    - [🔄 Paraphrase \& Text Similarity](#-paraphrase--text-similarity)\
       📄 [Go to detailed file](data/07_paraphrase_text_similarity.md)
-    - [❓ Question Answering](#-question-answering)
+    - [❓ Question Answering](#-question-answering)\
       📄 [Go to detailed file](data/08_question_answering.md)
-    - [🎙️ Speech \& Audio](#️-speech--audio)
+    - [🎙️ Speech \& Audio](#️-speech--audio)\
       📄 [Go to detailed file](data/09_speech_audio.md)
-    - [📝 Text Summarization](#-text-summarization)
+    - [📝 Text Summarization](#-text-summarization)\
       📄 [Go to detailed file](data/10_text_summarization.md)
-    - [🌍 Machine Translation](#-machine-translation)
+    - [🌍 Machine Translation](#-machine-translation)\
       📄 [Go to detailed file](data/11_machine_translation.md)
-    - [📖 Dictionary \& Vocabulary](#-dictionary--vocabulary)
+    - [📖 Dictionary \& Vocabulary](#-dictionary--vocabulary)\
       📄 [Go to detailed file](data/12_dictionary_vocabulary.md)
-    - [🤖 Pre-trained Models](#-pre-trained-models)
+    - [🤖 Pre-trained Models](#-pre-trained-models)\
       📄 [Go to detailed file](data/13_pre_trained_models.md)
-    - [🛠️ Tools \& Libraries](#️-tools--libraries)
+    - [🛠️ Tools \& Libraries](#️-tools--libraries)\
       📄 [Go to detailed file](data/14_tools_libraries.md)
 - [🚀 Quick Start](#-quick-start)
 - [🤝 Contributing](#-contributing)
