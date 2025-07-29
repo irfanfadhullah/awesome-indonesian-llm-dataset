@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Awesome Indonesian LLM Dataset</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A curated collection of Indonesian datasets for LLMs">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .sidebar-nav > ul > li > a {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .sidebar-nav ul li a:hover {
+      color: #42b883;
+    }
+    .app-name-link img {
+      max-width: 30px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Indonesian LLM Dataset',
+      repo: 'https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset',
+      homepage: 'README.md',
+      loadSidebar: true,
+      loadNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 3,
+      auto2top: true,
+      executeScript: true,
+      // Add these for better anchor handling
+      relativePath: false,
+      routerMode: 'hash', // Ensures hash-based routing works
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search datasets...',
+        noData: 'No results found.',
+        depth: 6
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>
