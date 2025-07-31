@@ -1,4 +1,5 @@
 # 🇮🇩 Awesome Indonesian LLM Dataset
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated collection of high-quality Indonesian datasets for training Large Language Models (LLMs), Vision-Language Models (VLMs), and multimodal AI systems. This repository serves as a comprehensive resource for researchers and practitioners working on Indonesian natural language processing and AI.
 
