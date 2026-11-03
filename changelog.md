@@ -13,6 +13,39 @@ guarantee of present upstream availability.
 
 ## Unreleased
 
+### Fixed — 2026-11-03
+
+- **Hashtag tokens were silently dropped from CoNLL token/tag files.** Lines
+  starting with `#` were treated as comments, although the format has no comment
+  syntax. This removed 46 labelled tokens (for example `#BCA` tagged `B`) from
+  the pinned IndoNLU BaPOS, KEPS, NERGrit, NERP, POSP and TermA files, 21 of them
+  from KEPS train. Sentence counts were unaffected, so
+  [reports/pinned-split-check.json](reports/pinned-split-check.json) remains valid.
+- **CoNLL-U `tokens` included multiword-token ranges and empty nodes**, so it
+  could not align with per-word annotations. The pinned UD Indonesian-GSD
+  validation file has 238 multiword rows (e.g. `membelinya` → `membeli` + `nya`);
+  `tokens` now lists exactly its 12,661 words. `rows` remains lossless.
+- The CoNLL token/tag reader now accepts whitespace-separated and multi-column
+  (CoNLL-2003-style) files, treats `-DOCSTART-` as a document boundary, and
+  rejects rows with inconsistent column counts or an empty token or tag.
+- **The seven canonical loaders now return the common record envelope through
+  `load_source()` and batch exports**, with canonical fields under `data`.
+  Previously their flat records made recipes such as
+  `examples/recipes/classification.json` (`data.text`) fail. `load_dataset()`
+  is unchanged. Batch exports of these loaders made before this fix keep the old
+  flat shape (resume only verifies checksums); re-export them in a new directory.
+- The default cache now honors `XDG_CACHE_HOME` for every backend; adapters and
+  batches previously always used `~/.cache`, creating a second cache.
+- Archive manifests now record `package_version`, `created_at`, `config`,
+  `split`, `plan_sha256` and `policy`, like row exports.
+- A leftover `.batch.lock` now reports its process ID and how to recover,
+  instead of a bare "File exists" error.
+- README: fixed the GitHub Issues link (`awesome-indonesia-…` did not resolve),
+  removed the link to disabled Discussions, updated the toolkit roadmap, and
+  removed a duplicate Citations heading. The regenerated catalog therefore has
+  **283 source records** (one fewer project-reference link); the 224 data-source
+  records and their audit observations are unchanged.
+
 ### Documentation
 
 - **2026-11-03:** Added this changelog, covering the original curated repository,

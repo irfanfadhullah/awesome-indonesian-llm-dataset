@@ -2335,68 +2335,6 @@
     "github_directory": ""
   },
   {
-    "id": "github-com-irfanfadhullah-awesome-indonesia-llm-dataset-discussions-0165469c",
-    "name": "Discussion",
-    "homepage": "https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/discussions",
-    "source_urls": [
-      "https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/discussions"
-    ],
-    "mentions": [
-      {
-        "label": "Discussion",
-        "heading": "🤝 Get Involved",
-        "category": "README",
-        "source_file": "README.md"
-      }
-    ],
-    "categories": [
-      "README"
-    ],
-    "resource_type": "reference",
-    "task": "reference",
-    "language": "und",
-    "modality": "text",
-    "role": "unspecified",
-    "access": "not_applicable",
-    "availability": "not_checked",
-    "backend": null,
-    "license": "unknown",
-    "license_evidence": [],
-    "license_note": "No dataset-specific terms have been verified. Public access is not a license.",
-    "instructions": "Open the source and select a data file/configuration; a source link is not an adapter."
-  },
-  {
-    "id": "github-com-irfanfadhullah-awesome-indonesia-llm-dataset-issues-8745bf7a",
-    "name": "GitHub Issues",
-    "homepage": "https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/issues",
-    "source_urls": [
-      "https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/issues"
-    ],
-    "mentions": [
-      {
-        "label": "GitHub Issues",
-        "heading": "🤝 Get Involved",
-        "category": "README",
-        "source_file": "README.md"
-      }
-    ],
-    "categories": [
-      "README"
-    ],
-    "resource_type": "reference",
-    "task": "reference",
-    "language": "und",
-    "modality": "text",
-    "role": "unspecified",
-    "access": "not_applicable",
-    "availability": "not_checked",
-    "backend": null,
-    "license": "unknown",
-    "license_evidence": [],
-    "license_note": "No dataset-specific terms have been verified. Public access is not a license.",
-    "instructions": "Open the source and select a data file/configuration; a source link is not an adapter."
-  },
-  {
     "id": "github-com-irfanfadhullah-awesome-indonesian-llm-dataset-dfb78f56",
     "name": "📞 Support & Contributions",
     "homepage": "https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset",
@@ -2429,6 +2367,37 @@
     "github_repo": "irfanfadhullah/awesome-indonesian-llm-dataset",
     "github_ref": "HEAD",
     "github_directory": ""
+  },
+  {
+    "id": "github-com-irfanfadhullah-awesome-indonesian-llm-dataset-issues-0e76032e",
+    "name": "GitHub Issues",
+    "homepage": "https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset/issues",
+    "source_urls": [
+      "https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset/issues"
+    ],
+    "mentions": [
+      {
+        "label": "GitHub Issues",
+        "heading": "🤝 Get Involved",
+        "category": "README",
+        "source_file": "README.md"
+      }
+    ],
+    "categories": [
+      "README"
+    ],
+    "resource_type": "reference",
+    "task": "reference",
+    "language": "und",
+    "modality": "text",
+    "role": "unspecified",
+    "access": "not_applicable",
+    "availability": "not_checked",
+    "backend": null,
+    "license": "unknown",
+    "license_evidence": [],
+    "license_note": "No dataset-specific terms have been verified. Public access is not a license.",
+    "instructions": "Open the source and select a data file/configuration; a source link is not an adapter."
   },
   {
     "id": "github-com-jolicode-emoji-search-blob-master-synonyms-cldr-emoji-annotat-3fbb8a95",

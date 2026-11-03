@@ -104,19 +104,20 @@ We are actively working on improving the awesome-indonesian-llm-dataset reposito
 
 #### 🔧 Unified Access \& Preprocessing Code
 
-An experimental implementation is now available in `src/indonesian_datasets`;
-see [the toolkit guide](PACKAGE.md). The remaining items below are the broader roadmap.
+An experimental package, `awesome-indonesian-datasets` (CLI: `indo-datasets`), is
+available in `src/indonesian_datasets`; see [the toolkit guide](PACKAGE.md).
 
-- **Develop `indonesian-nlp` Python package** for easy dataset access
-- **Create standardized preprocessing pipelines** for different data types:
-    - Text normalization and cleaning
-    - Language detection and filtering
-    - Format conversion utilities
-    - Train/validation/test splitting
-- **Implement unified data loaders** with consistent APIs across all datasets
-- **Add data validation and quality metrics** for each dataset
-- **Provide pre-built tokenization** for Indonesian language models
-- **Create benchmark evaluation scripts** for common NLP tasks
+- [x] **Python package and CLI** for dataset discovery and access
+- [x] **Unified loaders**: 7 canonical loaders plus repository-wide source adapters
+- [x] **Preprocessing pipelines**:
+    - [x] Text normalization and cleaning
+    - [ ] Language detection and filtering
+    - [x] Format conversion (CSV/TSV, JSON/JSONL, CoNLL/CoNLL-U, Parquet → JSONL)
+    - [x] Train/validation/test splitting for new corpora
+- [x] **Source availability and license audit** ([coverage report](SOURCE_COVERAGE.md))
+- [ ] **Data quality metrics**: near-duplicate detection and evaluation decontamination
+- [ ] **Pre-built tokenization** for Indonesian language models
+- [ ] **Benchmark evaluation scripts** for common NLP tasks
 
 
 #### 📚 Documentation \& Examples
@@ -132,7 +133,7 @@ see [the toolkit guide](PACKAGE.md). The remaining items below are the broader r
 
 - **Dataset request system** for missing language resources
 - **Quality feedback mechanism** for dataset improvements
-- **Contribution guidelines** for adding new datasets
+- **Contribution guidelines** for adding new datasets (available: [CONTRIBUTING.md](CONTRIBUTING.md))
 - **Regular dataset updates** and maintenance schedule
 
 
@@ -145,7 +146,7 @@ Interested in contributing to these developments? We welcome:
 - **Documentation** and tutorial writing
 - **Testing and feedback** on beta features
 
-Please check our [GitHub Issues](https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/issues) or start a [Discussion](https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/discussions) to get involved!
+Please check our [GitHub Issues](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset/issues) or open a new issue to get involved!
 
 ## 📊 Dataset Categories
 
@@ -1184,8 +1185,6 @@ This repository serves as a collection of links and information about publicly a
 ## 📖 Citations
 
 If you use datasets from this collection, please cite the relevant papers and acknowledge the original dataset creators. See individual dataset sections for specific citation information.
-
-## 📖 Citations
 
 ### Repository Citation
 

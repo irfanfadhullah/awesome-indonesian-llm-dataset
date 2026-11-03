@@ -4,14 +4,14 @@ Generated from `catalog.json` and the fingerprint-matched `audit.json` snapshot.
 These are **source records, not a count of unique datasets**: mirrors, configurations,
 papers and tools are distinguished. A reachable index is not a successful sample test.
 
-Total source records: **284**.
+Total source records: **283**.
 
 | Resource kind | Records |
 | --- | ---: |
 | dataset_source | 224 |
 | model | 10 |
 | paper | 13 |
-| reference | 18 |
+| reference | 17 |
 | tool | 19 |
 
 ## Data-source records

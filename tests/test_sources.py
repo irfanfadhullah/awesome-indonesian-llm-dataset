@@ -160,6 +160,86 @@ class AdapterTests(unittest.TestCase):
         self.assertEqual(row["rows"][2][0], "1.1")
         self.assertEqual(row["comments"], ["# sent_id = x"])
 
+    def test_conllu_tokens_are_syntactic_words_only(self):
+        path = self.write(
+            "mwt.conllu",
+            "1-2\tbukunya\t_\t_\t_\t_\t_\t_\t_\t_\n"
+            "1\tbuku\tbuku\tNOUN\t_\t_\t0\troot\t_\t_\n"
+            "2\tnya\tnya\tPRON\t_\t_\t1\tnmod\t_\t_\n"
+            "2.1\tada\tada\tVERB\t_\t_\t_\t_\t_\t_\n",
+        )
+        row = next(iter_file(path, format="conllu"))
+        self.assertEqual(row["tokens"], ["buku", "nya"])
+        self.assertEqual(len(row["rows"]), 4)
+
+    def test_conll_hash_lines_are_tokens_not_comments(self):
+        # IndoNLU KEPS/NER/POS files contain hashtag tokens such as "#BCA\tB".
+        path = self.write("tweets.txt", "#BCA\tB\nterbaik\tO\n#\tO\n")
+        row = next(iter_file(path, format="conll"))
+        self.assertEqual(row["tokens"], ["#BCA", "terbaik", "#"])
+        self.assertEqual(row["tags"], ["B", "O", "O"])
+        self.assertEqual(row["comments"], [])
+
+    def test_conll_whitespace_columns_and_docstart(self):
+        path = self.write(
+            "conll2003.txt",
+            "-DOCSTART- -X- -X- O\n\nBudi NNP B-NP B-PER\npergi VB B-VP O\n"
+            "-DOCSTART- -X- -X- O\nAni NNP B-NP B-PER\n",
+        )
+        rows = list(iter_file(path, format="conll"))
+        self.assertEqual([r["tokens"] for r in rows], [["Budi", "pergi"], ["Ani"]])
+        self.assertEqual(rows[0]["tags"], ["B-PER", "O"])
+        self.assertEqual(rows[0]["rows"][0], ["Budi", "NNP", "B-NP", "B-PER"])
+
+    def test_conll_inconsistent_or_empty_columns_fail(self):
+        for name, text in [
+            ("ragged.txt", "Budi\tB-PER\npergi\tVB\tO\n"),
+            ("empty-tag.txt", "Budi\t\n"),
+            ("empty-token.txt", "\tO\n"),
+        ]:
+            with self.assertRaisesRegex(ValueError, "token/tag row at line"):
+                list(iter_file(self.write(name, text), format="conll"))
+
+    @patch("indonesian_datasets.adapters.load_dataset")
+    def test_registered_sources_use_the_data_envelope(self, loader):
+        loader.return_value = iter(
+            [
+                {
+                    "id": "abc",
+                    "text": "Saya suka.",
+                    "label": "positive",
+                    "language": "id",
+                    "source": "nusax-id",
+                    "split": "train",
+                    "revision": "r" * 40,
+                    "metadata": {"id": "7"},
+                }
+            ]
+        )
+        entry = source(backend="registered", splits=["train"], variants=None)
+        record = next(iter_source(entry, split="train", cache_dir=self.root))
+        self.assertEqual(
+            record["data"], {"text": "Saya suka.", "label": "positive", "metadata": {"id": "7"}}
+        )
+        self.assertEqual((record["id"], record["revision"]), ("abc", "r" * 40))
+        self.assertNotIn("text", record)
+        recipe_path = Path(__file__).resolve().parents[1] / "examples/recipes/classification.json"
+        recipe = json.loads(recipe_path.read_text(encoding="utf-8"))
+        prepared = next(prepare_records([record], recipe))["prepared"]
+        self.assertEqual(prepared, {"text": "Saya suka.", "label": "positive"})
+
+    @patch("indonesian_datasets.adapters._download")
+    def test_default_cache_follows_xdg_for_every_backend(self, download):
+        from indonesian_datasets.loaders import default_cache_dir
+
+        with patch.dict("os.environ", {"XDG_CACHE_HOME": str(self.root / "xdg")}):
+            self.assertEqual(default_cache_dir(), self.root / "xdg" / "indonesian-datasets")
+            download.return_value = self.write("c.csv", "text\nHalo\n")
+            list(iter_source(source(), split="train"))
+            self.assertEqual(download.call_args.args[1], default_cache_dir())
+        with patch.dict("os.environ", {"XDG_CACHE_HOME": ""}):
+            self.assertEqual(default_cache_dir().parent, Path.home() / ".cache")
+
     def test_nested_json_not_flattened(self):
         raw = {"data": [{"paragraphs": [{"context": "Jakarta"}]}]}
         path = self.write("qa.json", json.dumps(raw))
@@ -405,6 +485,19 @@ class BatchTests(unittest.TestCase):
         self.assertEqual(report["summary"], {"completed": 1})
         manifest = verify_bundle(self.root / "batch" / plan["jobs"][0]["directory"])
         self.assertIn("artifact.bin", manifest["files"])
+        self.assertEqual(manifest["plan_sha256"], report["plan_sha256"])
+        self.assertEqual(manifest["policy"], plan["policy"])
+        self.assertEqual((manifest["config"], manifest["split"]), ("default", "all"))
+        self.assertIn("package_version", manifest)
+
+    def test_stale_lock_reports_owner_and_recovery(self):
+        output = self.root / "batch"
+        plan = plan_sources([])
+        run_batch(plan, output)
+        (output / ".batch.lock").write_text("4242", encoding="ascii")
+        with self.assertRaisesRegex(FileExistsError, r"PID 4242.*--resume"):
+            run_batch(plan, output, resume=True)
+        self.assertTrue((output / ".batch.lock").exists())
 
 
 class RecipeTests(unittest.TestCase):

@@ -104,6 +104,13 @@ image downloading or privacy filtering. Non-finite missing floats become null.
 Generic CSV/TSV file candidates retain header rows as column arrays unless a
 specific header convention was reviewed; do not count them as training examples.
 
+Every `load_source()`/batch record uses one envelope: `id`, `source`, `revision`,
+`conversion_revision`, `config`, `split`, `language`, `task`, `role` and `data`.
+For the seven canonical loaders, `data` holds the canonical fields (`text`,
+`label` or `summary`) plus their `metadata`, so the same recipe paths, such as
+`data.text`, work for every backend. `load_dataset()` still returns the flat
+canonical record.
+
 ```python
 from indonesian_datasets import load_source
 
@@ -128,6 +135,18 @@ CoNLL token/tag sentences, CoNLL-U, and optional Parquet. Gzip/Bzip2/XZ/Zstandar
 inputs have a decoded-byte cap to guard against decompression bombs. Encoding is
 strict UTF-8 by default; use `--encoding` for an explicitly reviewed legacy
 encoding. Arbitrary Python/pickle inputs are never loaded.
+
+CoNLL records keep every source row unchanged in `rows`:
+
+- **Token/tag (`conll`)**: columns are tab-separated, or whitespace-separated on
+  lines without a tab. The token is the first column and the tag the last, so
+  2-column and CoNLL-2003-style 4-column files both work. Every row must have
+  the same column count, with a non-empty token and tag. There is no comment
+  syntax: a line starting with `#` is a token (for example a hashtag).
+  `-DOCSTART-` rows mark document boundaries and are not emitted as tokens.
+- **CoNLL-U (`conllu`)**: `#` lines are comments. `tokens` lists syntactic words
+  only; multiword-token ranges (`1-2`) and empty nodes (`1.1`) remain in `rows`
+  but are left out of `tokens` so it lines up with per-word annotations.
 
 Recipes in `examples/recipes/` cover classification, NLI, summarization,
 translation, extractive QA, token classification, chat, audio references, image

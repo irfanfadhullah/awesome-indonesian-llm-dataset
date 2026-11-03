@@ -18,7 +18,7 @@ from itertools import islice
 from pathlib import Path
 
 from .catalog import get_source
-from .loaders import MAX_DOWNLOAD_BYTES, _download, load_dataset
+from .loaders import MAX_DOWNLOAD_BYTES, _download, default_cache_dir, load_dataset
 
 FORMATS = ("csv", "csv_rows", "tsv_rows", "json", "jsonl", "lines", "conll", "conllu", "parquet")
 
@@ -59,32 +59,66 @@ def json_safe(value):
 
 
 def _conll(handle, *, ud: bool) -> Iterator[dict]:
-    rows, comments = [], []
-    for number, line in enumerate(handle, 1):
-        line = line.rstrip("\r\n")
-        if not line:
-            if rows:
-                yield {
-                    "rows": rows,
-                    "comments": comments,
-                    "tokens": [r[1] if ud else r[0] for r in rows],
-                    **({} if ud else {"tags": [r[-1] for r in rows]}),
-                }
-                rows, comments = [], []
-        elif line.startswith("#"):
-            comments.append(line)
-        else:
-            columns = line.split("\t")
-            if (ud and len(columns) != 10) or (not ud and len(columns) != 2):
-                raise ValueError(f"Invalid {'CoNLL-U' if ud else 'token/tag'} row at line {number}")
-            rows.append(columns)
-    if rows:
-        yield {
+    """Yield one record per sentence; ``rows`` keeps every source row's columns.
+
+    CoNLL-U: ``#`` lines are comments. ``tokens`` lists syntactic words only;
+    multiword-token ranges (``1-2``) and empty nodes (``1.1``) stay in ``rows``
+    but are excluded so ``tokens`` aligns with per-word annotations.
+
+    Token/tag files have no comment syntax, so a line starting with ``#`` is a
+    token row (e.g. a hashtag). Columns are tab-separated, or whitespace-separated
+    when a line has no tab. The token is the first column and the tag the last;
+    every row must have the same column count. ``-DOCSTART-`` rows are document
+    boundaries, not tokens.
+    """
+    rows: list[list[str]] = []
+    comments: list[str] = []
+    width = None
+
+    def sentence() -> dict:
+        if ud:
+            return {
+                "rows": rows,
+                "comments": comments,
+                "tokens": [r[1] for r in rows if r[0].isdecimal()],
+            }
+        return {
             "rows": rows,
             "comments": comments,
-            "tokens": [r[1] if ud else r[0] for r in rows],
-            **({} if ud else {"tags": [r[-1] for r in rows]}),
+            "tokens": [r[0] for r in rows],
+            "tags": [r[-1] for r in rows],
         }
+
+    for number, line in enumerate(handle, 1):
+        line = line.rstrip("\r\n")
+        if not line.strip():
+            if rows:
+                yield sentence()
+                rows, comments = [], []
+            continue
+        if ud:
+            if line.startswith("#"):
+                comments.append(line)
+                continue
+            columns = line.split("\t")
+            if len(columns) != 10:
+                raise ValueError(f"Invalid CoNLL-U row at line {number}")
+        else:
+            columns = line.split("\t") if "\t" in line else line.split()
+            if columns[0] == "-DOCSTART-":
+                if rows:
+                    yield sentence()
+                    rows, comments = [], []
+                continue
+            width = width or len(columns)
+            if width < 2 or len(columns) != width or not columns[0] or not columns[-1]:
+                raise ValueError(
+                    f"Invalid token/tag row at line {number}: expected {max(width, 2)} "
+                    "columns with a non-empty token (first) and tag (last)"
+                )
+        rows.append(columns)
+    if rows:
+        yield sentence()
 
 
 def iter_file(
@@ -246,15 +280,30 @@ def iter_source(
     variant = choose_variant(entry, config, split)
     split, config = variant["split"], variant["config"]
     if entry["backend"] == "registered":
-        yield from load_dataset(
+        # Same envelope as every other backend: the canonical record (mapped task
+        # fields plus its ``metadata``) goes under ``data``, so recipes use one path.
+        envelope = {"id", "source", "split", "revision", "language"}
+        for record in load_dataset(
             entry["id"],
             split=split,
             limit=limit,
             cache_dir=cache_dir,
             max_download_bytes=max_download_bytes,
-        )
+        ):
+            yield {
+                "id": record["id"],
+                "source": entry["id"],
+                "revision": record["revision"],
+                "conversion_revision": None,
+                "config": config,
+                "split": split,
+                "language": record["language"],
+                "task": entry["task"],
+                "role": entry["role"],
+                "data": json_safe({k: v for k, v in record.items() if k not in envelope}),
+            }
         return
-    cache = Path(cache_dir) if cache_dir else Path.home() / ".cache/indonesian-datasets"
+    cache = Path(cache_dir) if cache_dir else default_cache_dir()
     if entry["backend"] == "hf_parquet":
         try:
             from datasets import Features

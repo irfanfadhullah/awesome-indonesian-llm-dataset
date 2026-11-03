@@ -9,9 +9,10 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+from . import __version__
 from .adapters import iter_source, source_variants
 from .catalog import fingerprint
-from .loaders import _download
+from .loaders import _download, default_cache_dir
 from .storage import file_sha256, save_json, write_bundle
 
 BAD_AVAILABILITY = {
@@ -182,16 +183,22 @@ def verify_bundle(path: Path) -> dict:
     return manifest
 
 
-def _artifact(entry: dict, output: Path, *, cache_dir: Path, max_bytes: int) -> dict:
+def _artifact(
+    entry: dict, output: Path, *, cache_dir: Path, max_bytes: int, provenance: dict
+) -> dict:
     path = _download(entry["download_url"], cache_dir, max_bytes)
     with tempfile.TemporaryDirectory(prefix=".artifact-", dir=output.parent) as temporary:
         staging = Path(temporary) / "bundle"
         staging.mkdir()
         shutil.copyfile(path, staging / "artifact.bin")
+        # Same provenance fields as row exports written by storage.write_bundle.
         manifest = {
             "schema_version": 1,
+            "package_version": __version__,
+            "created_at": datetime.now(timezone.utc).isoformat(),
             "operation": "artifact",
             "source": entry,
+            **provenance,
             "files": {"artifact.bin": {"bytes": path.stat().st_size, "sha256": file_sha256(path)}},
         }
         save_json(staging / "manifest.json", manifest)
@@ -219,7 +226,7 @@ def run_batch(
             raise ValueError("Unsafe job directory in plan")
     output = Path(output)
     plan_hash = fingerprint(plan)
-    cache = Path(cache_dir) if cache_dir else Path.home() / ".cache/indonesian-datasets"
+    cache = Path(cache_dir) if cache_dir else default_cache_dir()
     if output.is_symlink():
         raise ValueError("Batch output cannot be a symlink")
     if output.exists() and not resume:
@@ -230,7 +237,18 @@ def run_batch(
             raise ValueError("Resume requires the identical frozen plan")
     output.mkdir(parents=True, exist_ok=True)
     lock = output / ".batch.lock"
-    fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
+    try:
+        fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
+    except FileExistsError:
+        try:
+            owner = lock.read_text(encoding="ascii").strip() or "unknown"
+        except OSError:
+            owner = "unknown"
+        raise FileExistsError(
+            f"{lock} exists: another batch (PID {owner}) may still be running, or an earlier "
+            "run was interrupted. Confirm that process has exited, delete the lock file, "
+            "then rerun with --resume."
+        ) from None
     try:
         with os.fdopen(fd, "w") as handle:
             handle.write(str(os.getpid()))
@@ -268,6 +286,12 @@ def run_batch(
                             destination,
                             cache_dir=cache,
                             max_bytes=policy["max_download_bytes"],
+                            provenance={
+                                "config": job["config"],
+                                "split": job["split"],
+                                "plan_sha256": plan_hash,
+                                "policy": policy,
+                            },
                         )
                     else:
                         records = iter_source(

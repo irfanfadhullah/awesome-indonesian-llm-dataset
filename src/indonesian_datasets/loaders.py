@@ -16,6 +16,15 @@ from .registry import get_dataset
 MAX_DOWNLOAD_BYTES = 100 * 1024 * 1024
 
 
+def default_cache_dir() -> Path:
+    """``$XDG_CACHE_HOME/indonesian-datasets``, else ``~/.cache/indonesian-datasets``.
+
+    Shared by every backend so loaders, adapters and batches reuse one cache.
+    An empty ``XDG_CACHE_HOME`` counts as unset, per the XDG specification.
+    """
+    return Path(os.environ.get("XDG_CACHE_HOME") or Path.home() / ".cache") / "indonesian-datasets"
+
+
 def _sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as handle:
@@ -141,8 +150,7 @@ def load_dataset(
         raise ValueError("limit must be non-negative or None")
     if max_download_bytes <= 0:
         raise ValueError("max_download_bytes must be positive")
-    default_cache = Path(os.environ.get("XDG_CACHE_HOME", Path.home() / ".cache"))
-    cache = Path(cache_dir) if cache_dir is not None else default_cache / "indonesian-datasets"
+    cache = Path(cache_dir) if cache_dir is not None else default_cache_dir()
 
     def records() -> Iterator[dict]:
         if limit == 0:
