@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "task": "lexicon",
+  "fields": {"term": "data.term", "definition": "data.definition"}
+}

@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "task": "audio",
+  "fields": {"audio": "data.audio", "transcript": "data.transcript"}
+}

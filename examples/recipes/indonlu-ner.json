@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "task": "token-classification",
+  "fields": {"tokens": "data.tokens", "labels": "data.tags"}
+}

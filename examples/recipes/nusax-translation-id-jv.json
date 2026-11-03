@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "task": "translation",
+  "fields": {"source_text": "data.indonesian", "target_text": "data.javanese"}
+}

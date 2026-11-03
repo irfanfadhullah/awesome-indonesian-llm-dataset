@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "task": "qa-extractive",
+  "fields": {"context": "data.context", "question": "data.question", "answers": "data.answers"}
+}

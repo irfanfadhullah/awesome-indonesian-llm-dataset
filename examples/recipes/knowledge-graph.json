@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "task": "knowledge-graph",
+  "fields": {"head": "data.head", "relation": "data.relation", "tail": "data.tail"}
+}

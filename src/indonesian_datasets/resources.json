@@ -1,0 +1,3218 @@
+[
+  {
+    "url": "http://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf",
+    "kind": "paper",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "Designing an Indonesian POS Tagset (PDF)",
+        "heading": "IDN Tagged Corpus",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "http://data.statmt.org/cc-100",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "StatMT CC-100",
+        "heading": "CC-100",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "http://docs.tweepy.org/en/latest",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "Tweepy Docs",
+        "heading": "Tweepy",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/kompas.zip",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Kompas Online Collection (2001–2002)",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/tempo.zip",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Tempo Online Collection (2000–2002)",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "http://opus.nlpl.eu",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "OPUS Collection",
+        "heading": "OPUS Parallel Corpus Collection",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      },
+      {
+        "label": "Original",
+        "heading": "Europarl",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "http://research.nii.ac.jp/src/en/TITML-IDN.html",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "NII Research",
+        "heading": "TITML-IDN Speech Corpus",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "http://research.nii.ac.jp/src/en/register.html",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "Registration",
+        "heading": "TITML-IDN Speech Corpus",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "http://septinalarasati.com/morphind",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "Website",
+        "heading": "MorphInd",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "http://www.cs.cmu.edu/~jwieting",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "ParaNMT-50M (Indonesian)",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "http://www2.nict.go.jp/astrec-att/member/mutiyama/ALT",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "ALT Corpus",
+        "heading": "Asian Language Treebank (ALT)",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://aclanthology.org/2023.ijcnlp-main.60",
+    "kind": "paper",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Paper",
+        "heading": "NusaWrites Benchmark",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.15960",
+    "kind": "paper",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Paper",
+        "heading": "NusaX-MT: Multilingual Translation Dataset",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2306.11341",
+    "kind": "paper",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "arXiv:2306.11341",
+        "heading": "MSVD-Indonesian",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.12932",
+    "kind": "paper",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Paper",
+        "heading": "Story Cloze in Local Languages",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://arxiv.org/pdf/2409.08564",
+    "kind": "paper",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Paper",
+        "heading": "IndoCareer",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://bagas.me/spacy-bahasa-indonesia.html",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "spaCy Bahasa Indonesia Guide",
+        "heading": "spaCy Bahasa Indonesia",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cims.nyu.edu/~sbowman/multinli",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "Indonesian MultiNLI",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://corpora.uni-leipzig.de/en?corpusId=ind_mixed_2013",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Leipzig Corpora 2013",
+        "heading": "Leipzig Corpora Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://corpora.wortschatz-leipzig.de/en?corpusId=ind_news_2022",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Leipzig Corpora 2022",
+        "heading": "Leipzig Corpora Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/id.zip",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "Indonesian",
+        "heading": "VoxLingua107 Dataset",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/jw.zip",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Javanese Speech",
+        "heading": "Javanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/jw.zip",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "Javanese",
+        "heading": "VoxLingua107 Dataset",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/su.zip",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Sundanese Speech",
+        "heading": "Sundanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cs.taltech.ee/staff/tanel.alumae/data/voxlingua107/su.zip",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "Sundanese",
+        "heading": "VoxLingua107 Dataset",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://data.mendeley.com/datasets/2zpbjs22k3/1",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Mendeley Dataset",
+        "heading": "Indonesian News Corpus",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://data.mendeley.com/datasets/8fw93k4rny/4",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "Mendeley Data",
+        "heading": "LUMINA (Linguistic Unified Multimodal Indonesian Natural Audio-Visual)",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://data.mendeley.com/datasets/nvc3rsf53b/5",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Mendeley Dataset",
+        "heading": "MadureseSet",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://docs.google.com/forms/d/1bFkimFsZoswKCbUa76yHqi9hizLrJYne-1G_r5unfww/edit",
+    "kind": "reference",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Access Form",
+        "heading": "Liputan6",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1016/j.dib.2023.109035",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Data in Brief 2023",
+        "heading": "MadureseSet",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://drive.google.com/drive/folders/1V79VrSJ_ljz652iETARjHoB_zEfEIxV1?usp=sharing",
+    "kind": "reference",
+    "category": "03_knowledge_graphs",
+    "mentions": [
+      {
+        "label": "Google Drive",
+        "heading": "IndoWiki: Indonesian Knowledge Graph",
+        "category": "03_knowledge_graphs",
+        "source_file": "data/03_knowledge_graphs.md"
+      }
+    ]
+  },
+  {
+    "url": "https://drive.google.com/file/d/1-stKadfTgJLtYsHWqXhGO3nTjKVFxm_Q/view",
+    "kind": "reference",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "SMS Spam Detection",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://drive.google.com/file/d/1OgYbPfXFAv3TbwP1Qcwt_CC9cVWSJaco/view",
+    "kind": "reference",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Data Download",
+        "heading": "IndoSum",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://drive.google.com/file/d/1sTCB5NDPq6vUOlxR29DbvSssErvXLD1d/view?usp=sharing",
+    "kind": "reference",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Data Download",
+        "heading": "WikiLingua",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://europat.net",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "EuroPat v2",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://fasttext.cc/docs/en/crawl-vectors.html",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "Official FastText",
+        "heading": "FastText Indonesian",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IgoRamli/IndoWiki",
+    "kind": "github_resource",
+    "category": "03_knowledge_graphs",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "IndoWiki: Indonesian Knowledge Graph",
+        "category": "03_knowledge_graphs",
+        "source_file": "data/03_knowledge_graphs.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/bapos_pos-idn",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "BaPOS",
+        "heading": "Available Datasets",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/facqa_qa-factoid-itb",
+    "kind": "github_resource",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "GitHub",
+        "heading": "FacQA",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/keps_keyword-extraction-prosa",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "KEPS",
+        "heading": "Available Datasets",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/nergrit_ner-grit",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "NERGrit",
+        "heading": "Available Datasets",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/nerp_ner-prosa",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "NERP",
+        "heading": "Available Datasets",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/posp_pos-prosa",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "POSP",
+        "heading": "Available Datasets",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/terma_term-extraction-airy",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "TermA",
+        "heading": "Available Datasets",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/indonlu/tree/master/dataset/wrete_entailment-ui",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "WReTE",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/nusa-writes",
+    "kind": "github_resource",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "NusaWrites Benchmark",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/nusax/tree/main/datasets/mt",
+    "kind": "github_resource",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "NusaX-MT: Multilingual Translation Dataset",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/IndoNLP/nusax/tree/main/datasets/mt",
+    "kind": "github_resource",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "NusaX-MT",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/Mottl/GetOldTweets3",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "GetOldTweets3",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/UniversalDependencies/UD_Indonesian-GSD",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "UD Indonesian-GSD",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/Wikidepia/indonesia_dataset/tree/master/paraphrase/PAWS",
+    "kind": "github_resource",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "PAWS (Indonesian)",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/Wikidepia/indonesia_dataset/tree/master/question-answering/mathematics_dataset",
+    "kind": "github_resource",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Mathematics Dataset (Indonesian)",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/Wikidepia/indonesian_datasets/tree/master/dictionary/wordlist/data/wordlist.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Indonesia Wordlist",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/Wikidepia/mathematics_dataset_id",
+    "kind": "github_resource",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "mathematics_dataset_id",
+        "heading": "Mathematics Dataset (Indonesian)",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/abhimantramb/elang/blob/master/word2vec/utils/indonesian-region.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "elang region",
+        "heading": "Indonesia Regions & Administrative Data",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/abhimantramb/elang/tree/master/word2vec/utils/stopwords-list",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "elang stopwords-list",
+        "heading": "Stopwords",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/emoticon.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "SentiStrengthID Emoticon",
+        "heading": "Emoticon & Emoji",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/rootword.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "rootword.txt",
+        "heading": "Root Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/sentimentword.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "SentiStrengthID",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/slangword.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "slangword.txt",
+        "heading": "Slang Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/allenai/allennlp/discussions/5265",
+    "kind": "github_resource",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "AllenAI Multilingual C4",
+        "heading": "Clean mC4",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/annisanurulazhar/absa-playground",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Aspect-Based Sentiment Analysis",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/cahya-wirawan/indonesian-language-models/tree/master/Transformers",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Indonesian Language Model Collection",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/davidmoeljadi/INDRA",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "INDRA",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/deepmind/mathematics_dataset",
+    "kind": "github_resource",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "Mathematics Dataset (Indonesian)",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/dziem/proner-labeled-text",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Product NER",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia/tree/master/csv",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Wilayah Administratif Indonesia CSV",
+        "heading": "Indonesia Regions & Administrative Data",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/esdurmus/Wikilingua",
+    "kind": "github_resource",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "WikiLingua",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/explosion/spaCy",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "spaCy Official",
+        "heading": "spaCy Bahasa Indonesia",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/fajri91/InSet",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "InSet Lexicon",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/famrashel/idn-tagged-corpus",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "IDN tagged corpus",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/famrashel/idn-tagged-corpus",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "IDN Tagged Corpus",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/famrashel/idn-treebank",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Indonesian Treebank",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/festvox/datasets-CMU_Wilderness",
+    "kind": "github_resource",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "CMU Wilderness Multilingual Speech Dataset",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/flairNLP/flair",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Flair NLP",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/frankydotid/Indonesian-Speech-Recognition",
+    "kind": "github_resource",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Indonesian Speech Recognition (Small)",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/google-research-datasets/conceptual-12m",
+    "kind": "github_resource",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "Conceptual Captions (Indonesian)",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/google-research-datasets/conceptual-captions",
+    "kind": "github_resource",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "Conceptual Captions (Indonesian)",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/google-research-datasets/paws",
+    "kind": "github_resource",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "PAWS (Indonesian)",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/google-research-datasets/tydiqa",
+    "kind": "github_resource",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "GitHub",
+        "heading": "TyDi QA",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/grit-id/nergrit-corpus",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "NER-GRIT",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/haryoa/indo-collex",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "IndoCollex",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/haryoa/stif-indonesia",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "STIF-Indonesia",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ialfina/id-hatespeech-detection",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Hate Speech Detection",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      },
+      {
+        "label": "GitHub Repository",
+        "heading": "Hate Speech & Abusive Language Detection",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ialfina/kethu",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Kethu Treebank (Constituency Parsing)",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ialfina/ner-dataset-modified-dee",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Singgalang NER Dataset",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ilhamfp/puisi-pantun-generator",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Indonesian Poetry & Pantun Generator",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/indobenchmark/indonlg",
+    "kind": "github_resource",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "IndoNLG",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/indobenchmark/indonlu",
+    "kind": "github_resource",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "GitHub",
+        "heading": "IndoNLU Benchmark",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/indobenchmark/indonlu",
+    "kind": "github_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "GitHub",
+        "heading": "Indo-BERT",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/indolem/IndoBERTweet",
+    "kind": "github_resource",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "IndoBERTweet",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/indolem/IndoBERTweet",
+    "kind": "github_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "GitHub",
+        "heading": "Indo-BERTweet",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/indolem/sum_liputan6",
+    "kind": "github_resource",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Liputan6",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ir-nlp-csui/indonli",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "IndoNLI: Natural Language Inference Dataset",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset",
+    "kind": "github_resource",
+    "category": "00_dataset_categories",
+    "mentions": [
+      {
+        "label": "GitHub repository",
+        "heading": "📞 Support & Contributions",
+        "category": "00_dataset_categories",
+        "source_file": "data/00_dataset_categories.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/jolicode/emoji-search/blob/master/synonyms/cldr-emoji-annotation-synonyms-id.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Emoji synonyms Indonesian",
+        "heading": "Emoticon & Emoji",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/jordhy97/final_project",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Hotel Reviews ABSA",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/kata-ai/indosum",
+    "kind": "github_resource",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "IndoSum",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/kata-ai/kawat",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "KAWAT (Word Analogy Dataset)",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/kmkurn/id-nlp-resource",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "GitHub",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/kumparan/nlp-id",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "NLP-ID",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_root_words.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Combined root words",
+        "heading": "Root Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_slang_words.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Combined slang words",
+        "heading": "Slang Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_stop_words.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Combined stopwords",
+        "heading": "Stopwords",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/louisowen6/quora_paraphrasing_id",
+    "kind": "github_resource",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Quora Paraphrasing ID",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/mahnazkoupaee/WikiHow-Dataset",
+    "kind": "github_resource",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "WikiHow (Indonesian)",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/mamat-rahmat/checker_id",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Indonesian Typo Checker",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/masdevid/ID-OpinionWords/blob/master/negative.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "ID-OpinionWords negative",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/masdevid/ID-OpinionWords/blob/master/positive.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "ID-OpinionWords positive",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/nasalsabila/kamus-alay",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Colloquial Indonesian Lexicon",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/okkyibrohim/id-abusive-language-detection",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Abusive Language Detection",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      },
+      {
+        "label": "GitHub Repository",
+        "heading": "Hate Speech & Abusive Language Detection",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection",
+    "kind": "github_resource",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Hate Speech & Abusive Language Detection",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection/blob/master/new_kamusalay.csv",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "CSV File",
+        "heading": "Indonesian Slang Mapping",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/openai/CLIP/blob/main/data/yfcc100m.md",
+    "kind": "github_resource",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "YFCC100M OpenAI Subset",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/panggi/pujangga",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Pujangga REST API",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/panggi/pujangga/blob/master/resource/formalization/formalizationDict.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "formalizationDict.txt",
+        "heading": "Slang Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/country.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Country list",
+        "heading": "Indonesia Regions & Administrative Data",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/lpre.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Region list",
+        "heading": "Indonesia Regions & Administrative Data",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/ppre.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Title of Name",
+        "heading": "Named Entity Resources",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/panggi/pujangga/blob/master/resource/reference/opre.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Organization titles",
+        "heading": "Named Entity Resources",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/panggi/pujangga/blob/master/resource/sentencedetector/acronym.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "pujangga acronyms",
+        "heading": "Acronyms",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/pentagonal/Indonesia-Postal-Code/tree/master/Csv",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Indonesia Postal Code CSV",
+        "heading": "Indonesia Regions & Administrative Data",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/prasastoadi/serangkai/blob/master/serangkai/kamus/data/kamus-kata-dasar.csv",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "kamus-kata-dasar.csv",
+        "heading": "Root Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/acronym.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "ramaprakoso acronyms",
+        "heading": "Acronyms",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/emoticon.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "emoticon.txt",
+        "heading": "Emoticon & Emoji",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/kbba.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "kbba.txt",
+        "heading": "Slang Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/negatif_ta2.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "negatif_ta2.txt",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/negative_add.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "negative_add.txt",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/negative_keyword.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "negative_keyword.txt",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/positif_ta2.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "positif_ta2.txt",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/positive_add.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "positive_add.txt",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/positive_keyword.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "positive_keyword.txt",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/stopword.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "stopword.txt",
+        "heading": "Stopwords",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/riochr17/Analisis-Sentimen-ID",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Analisis-Sentimen-ID",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/sastrawi/sastrawi",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Sastrawi Stemmer",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/sastrawi/sastrawi/blob/master/data/kata-dasar.original.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "kata-dasar.original.txt",
+        "heading": "Root Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/sastrawi/sastrawi/blob/master/data/kata-dasar.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "kata-dasar.txt",
+        "heading": "Root Words",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/seuriously/genderprediction/blob/master/namatraining.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Gender by Name dataset",
+        "heading": "Named Entity Resources",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/victoriasovereigne/tesaurus",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "Tesaurus",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/willyfh/msvd-indonesian",
+    "kind": "github_resource",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "MSVD-Indonesian",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/willyfh/msvd-indonesian/blob/main/data/MSVD-indonesian.txt",
+    "kind": "github_resource",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Data",
+        "heading": "MSVD-Indonesian",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/yasirutomo/python-sentianalysis-id",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "python-sentianalysis-id",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/yasirutomo/python-sentianalysis-id/blob/master/data/feature_list/stopwordsID.txt",
+    "kind": "github_resource",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "stopwordsID.txt",
+        "heading": "Stopwords",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/yohanesgultom/nlp-experiments",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "nlp-experiments",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/yohanesgultom/nlp-experiments/tree/master/data/ner",
+    "kind": "github_resource",
+    "category": "02_token_classification",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "nlp-experiments NER Dataset",
+        "category": "02_token_classification",
+        "source_file": "data/02_token_classification.md"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/yusufsyaifudin/indonesia-ner",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "GitHub Repository",
+        "heading": "indonesia-ner",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/bert-base-multilingual-cased",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "mBERT (Multilingual BERT)",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/Datasaur/Mongabay-collection",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Mongabay",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/Helsinki-NLP/tatoeba",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "HuggingFace Link",
+        "heading": "Other Large Corpora",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/SEACrowd/casa",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "CASA",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/SEACrowd/emot",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "EmoT",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/SEACrowd/facqa",
+    "kind": "huggingface_dataset",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "FacQA",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/SEACrowd/hoasa",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "HoASA",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/SEACrowd/smsa",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "SmSA",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/SEACrowd/tydiqa",
+    "kind": "huggingface_dataset",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "TyDi QA",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/Wikidepia/IndoParaCrawl",
+    "kind": "huggingface_dataset",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "HuggingFace IndoParaCrawl",
+        "heading": "ParaCrawl v7.1",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/cis-lmu/m_lama",
+    "kind": "huggingface_dataset",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "mLAMA",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/common_voice",
+    "kind": "huggingface_dataset",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Mozilla Common Voice (Indonesian)",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/covost2",
+    "kind": "huggingface_dataset",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "CoVoST2",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/csebuetnlp/xlsum",
+    "kind": "huggingface_dataset",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "XLSum",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/danielsyahputra/ktp-vlm-instruct-dataset",
+    "kind": "huggingface_dataset",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "KTP VLM Instruct Dataset",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/id_clickbait",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "ID Clickbait News",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/id_newspapers_2018",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "ID Newspapers 2018",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/id_panl_bppt",
+    "kind": "huggingface_dataset",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "PANL BPPT",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/indolem/IndoCareer",
+    "kind": "huggingface_dataset",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "IndoCareer",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/indolem/IndoCulture",
+    "kind": "huggingface_dataset",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "IndoCulture",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/indolem/IndoMMLU",
+    "kind": "huggingface_dataset",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "IndoMMLU",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/indonesian-nlp/wikipedia-id",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Indonesian Wikipedia",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/indonli",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "IndoNLI: Natural Language Inference Dataset",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/indonlp/cendol_collection_v1",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Cendol Collection v1",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/indonlp/cendol_collection_v2",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Cendol Collection v2",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/irfanfadhullah/FineWeb-Edu-25K",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Translated Datasets",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/irfanfadhullah/OpenWebText-Indonesia-10k",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Translated Datasets",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/irfanfadhullah/indonesian-simple-summaries",
+    "kind": "huggingface_dataset",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Indonesian Simple Summaries (Our Works)",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/open_subtitles",
+    "kind": "huggingface_dataset",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Open Subtitles",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/opus100",
+    "kind": "huggingface_dataset",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "opus100",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/oscar-corpus/OSCAR-2301",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "HuggingFace OSCAR-2301",
+        "heading": "OSCAR Corpus",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/ravialdy/javanese-translated",
+    "kind": "huggingface_dataset",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Javanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/rifkiaputri/su-csqa",
+    "kind": "huggingface_dataset",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Sundanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/rifoag/javanese_sundanese_story_cloze",
+    "kind": "huggingface_dataset",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Story Cloze in Local Languages",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/robinsyihab/QQPR-triplets-ID",
+    "kind": "huggingface_dataset",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "QQPR-Triplets-ID",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/sabilmakbar/indo_wiki",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "IndoWiki by sabilmakbar",
+        "heading": "HuggingFace Datasets Collection",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/senti_lex",
+    "kind": "huggingface_dataset",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "HuggingFace senti_lex",
+        "heading": "Comprehensive Sentiment Collections",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/tapaco",
+    "kind": "huggingface_dataset",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "TAPACO",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/uonlp/CulturaX",
+    "kind": "huggingface_dataset",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "HuggingFace CulturaX",
+        "heading": "CulturaX",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/google/mt5-base",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "mT5 (Multilingual T5)",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/indobenchmark",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "HuggingFace Models",
+        "heading": "IndoNLU Benchmark",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/indobenchmark/indobert-base-p1",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Indo-BERT",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/indobenchmark/indogpt",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Indonesian GPT Models",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/indolem/indobertweet-base-uncased",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "Indo-BERTweet",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://huggingface.co/xlm-roberta-base",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "HuggingFace",
+        "heading": "XLM-R (Cross-lingual Language Model - RoBERTa)",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://id.wiktionary.org/wiki/Lampiran:Daftar_singkatan_dan_akronim_dalam_bahasa_Indonesia#A",
+    "kind": "reference",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "Wiktionary Indonesian Acronyms",
+        "heading": "Acronyms",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/abstract/document/8355039",
+    "kind": "reference",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "IEEE",
+        "heading": "Hate Speech & Abusive Language Detection",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/abstract/document/8629151",
+    "kind": "reference",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "IEEE 2018",
+        "heading": "Colloquial Indonesian Lexicon",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0005-BF85-F",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "LINDAT Repository",
+        "heading": "IDENTICv1.0",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://nlp.jhu.edu/parabank",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "ParaBank",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://nlp.stanford.edu/projects/snli",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "Indonesian SNLI",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://norvig.com/spell-correct.html",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "Norvig's Algorithm",
+        "heading": "Norvig's Spell Corrector (Indonesian)",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://openslr.org/35",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "OpenSLR",
+        "heading": "Javanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://openslr.org/35",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "OpenSLR",
+        "heading": "Large Javanese ASR Dataset",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://openslr.org/36",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "OpenSLR",
+        "heading": "Sundanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://openslr.org/36",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "OpenSLR",
+        "heading": "Large Sundanese ASR Dataset",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://opus.nlpl.eu/QED.php",
+    "kind": "reference",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "Opus",
+        "heading": "QED (Educational Domain)",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://opus.nlpl.eu/QED/en&es/v2.0a/QED",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Link",
+        "heading": "Other Large Corpora",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://opus.nlpl.eu/bible-uedin.php",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "Opus",
+        "heading": "Bible-uedin",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://rajpurkar.github.io/SQuAD-explorer",
+    "kind": "reference",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "Original",
+        "heading": "SQuAD (Indonesian)",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://sites.google.com/site/rmyeid/projects/polyglot",
+    "kind": "model_resource",
+    "category": "13_pre_trained_models",
+    "mentions": [
+      {
+        "label": "Polyglot Project",
+        "heading": "Polyglot Embeddings",
+        "category": "13_pre_trained_models",
+        "source_file": "data/13_pre_trained_models.md"
+      }
+    ]
+  },
+  {
+    "url": "https://sourceforge.net/p/wn-msa/tab/HEAD/tree/trunk",
+    "kind": "reference",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "SourceForge",
+        "heading": "WordNet Bahasa",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/cc12m.jsonl.zst",
+    "kind": "reference",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Conceptual Captions (Indonesian)",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/cc3m-train.jsonl.zst",
+    "kind": "reference",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Conceptual Captions (Indonesian)",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/ccnews-id.tar",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Indonesian CommonCrawl News",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/gigaword.tar.zst",
+    "kind": "reference",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "GigaWord (Indonesian)",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/gtts-500k.zip",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Google TTS Dataset",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/idmultinli",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Indonesian MultiNLI",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/idsnli",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Indonesian SNLI",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/jv-text",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Javanese Text",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/kaskus-webtext.tar.zst",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Kaskus WebText",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/kaskus.jsonl.zst",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Source List",
+        "heading": "Kaskus WebText",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/parabank-v2.0.jsonl.zst",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "ParaBank",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/paranmt-5m.jsonl.zst",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "ParaNMT-50M (Indonesian)",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/reddit-tldr.jsonl.zst",
+    "kind": "reference",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Reddit TLDR (Indonesian)",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/squad",
+    "kind": "reference",
+    "category": "08_question_answering",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "SQuAD (Indonesian)",
+        "category": "08_question_answering",
+        "source_file": "data/08_question_answering.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/twitter-dump",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Twitter Collections",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/wikihow.json.zst",
+    "kind": "reference",
+    "category": "10_text_summarization",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "WikiHow (Indonesian)",
+        "category": "10_text_summarization",
+        "source_file": "data/10_text_summarization.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/wikipedia-links.tar.zst",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Wikipedia Links",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stor.akmal.dev/yfcc100.jsonl.zst",
+    "kind": "reference",
+    "category": "06_multimodal_vision_language",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "YFCC100M OpenAI Subset",
+        "category": "06_multimodal_vision_language",
+        "source_file": "data/06_multimodal_vision_language.md"
+      }
+    ]
+  },
+  {
+    "url": "https://storage.depia.wiki/europarl.jsonl.zst",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "Europarl",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://storage.depia.wiki/europat.jsonl.zst",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "EuroPat v2",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://storage.depia.wiki/sbert-paraphrase",
+    "kind": "reference",
+    "category": "07_paraphrase_text_similarity",
+    "mentions": [
+      {
+        "label": "Download",
+        "heading": "SBERT Paraphrase Data",
+        "category": "07_paraphrase_text_similarity",
+        "source_file": "data/07_paraphrase_text_similarity.md"
+      }
+    ]
+  },
+  {
+    "url": "https://storage.googleapis.com/babert-pretraining/IndoNLU_finals/dataset/preprocessed/dataset_all_uncased_blankline.txt.xz",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Dataset",
+        "heading": "IndoNLU Benchmark",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1",
+    "kind": "tool_resource",
+    "category": "14_tools_libraries",
+    "mentions": [
+      {
+        "label": "Tweet Scraping Guide",
+        "heading": "Tweepy",
+        "category": "14_tools_libraries",
+        "source_file": "data/14_tools_libraries.md"
+      }
+    ]
+  },
+  {
+    "url": "https://traces1.inria.fr/oscar/#corpus",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "TRACES OSCAR",
+        "heading": "OSCAR Corpus",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://twitter.com/PelangiPuisi",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "@PelangiPuisi",
+        "heading": "Twitter Collections",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://wit3.fbk.eu/mt.php?release=2017-01-more",
+    "kind": "reference",
+    "category": "11_machine_translation",
+    "mentions": [
+      {
+        "label": "WIT3 IWSLT2017",
+        "heading": "IWSLT2017",
+        "category": "11_machine_translation",
+        "source_file": "data/11_machine_translation.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.aclweb.org/anthology/2020.paclic-1.17.pdf",
+    "kind": "paper",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "PACLIC 2020",
+        "heading": "MinangNLP",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.aclweb.org/anthology/W19-3506.pdf",
+    "kind": "paper",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "ACL 2019",
+        "heading": "Hate Speech & Abusive Language Detection",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.dropbox.com/s/12h3qqog6q4bjve/panx_dataset.tar?dl=1",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "DropBox Link",
+        "heading": "Other Large Corpora",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/andikawilliam/clickid",
+    "kind": "reference",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "Indonesian Clickbait Headlines",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/hakikidamana/javanese-corpus/data",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Kaggle",
+        "heading": "Javanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/hengkymulyono/indonesian-speech-with-accents-5-ethnic-groups",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Kaggle Dataset",
+        "heading": "Indonesian Speech with Regional Accents",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/hengkymulyono/indonesian-speech-with-accents-5-ethnic-groups",
+    "kind": "reference",
+    "category": "09_speech_audio",
+    "mentions": [
+      {
+        "label": "Kaggle Dataset",
+        "heading": "Indonesian Speech with Regional Accents",
+        "category": "09_speech_audio",
+        "source_file": "data/09_speech_audio.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.kaggle.com/datasets/rtatman/sentiment-lexicons-for-81-languages",
+    "kind": "reference",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "SentiWS",
+        "heading": "Indonesian NLP Resources",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.npmjs.com/package/id-wordnet",
+    "kind": "reference",
+    "category": "12_dictionary_vocabulary",
+    "mentions": [
+      {
+        "label": "NPM Package",
+        "heading": "id-wordnet npm package",
+        "category": "12_dictionary_vocabulary",
+        "source_file": "data/12_dictionary_vocabulary.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1877050918314583",
+    "kind": "reference",
+    "category": "01_natural_language_understanding",
+    "mentions": [
+      {
+        "label": "ScienceDirect",
+        "heading": "Hate Speech & Abusive Language Detection",
+        "category": "01_natural_language_understanding",
+        "source_file": "data/01_natural_language_understanding.md"
+      }
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/15494944",
+    "kind": "reference",
+    "category": "05_local_languages",
+    "mentions": [
+      {
+        "label": "Zenodo",
+        "heading": "Sundanese Resources",
+        "category": "05_local_languages",
+        "source_file": "data/05_local_languages.md"
+      }
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/841984",
+    "kind": "reference",
+    "category": "04_web_crawl_text_corpora",
+    "mentions": [
+      {
+        "label": "Zenodo Link",
+        "heading": "Other Large Corpora",
+        "category": "04_web_crawl_text_corpora",
+        "source_file": "data/04_web_crawl_text_corpora.md"
+      }
+    ]
+  }
+]

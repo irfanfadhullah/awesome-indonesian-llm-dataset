@@ -1,0 +1,1080 @@
+{
+  "scope": "Selected small variant per adapter, not all rows/configs. No content or credentials stored.",
+  "results": [
+    {
+      "id": "fineweb-edu-id",
+      "config": "default",
+      "split": "train",
+      "revision": "a1b26d126fd9c6df375d5bb2af980fdcff27f3ac",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-agusmakmun-sentistrengthid-blob-master-id-dict-emoticon-txt-b6502aaa",
+      "config": "default",
+      "split": "all",
+      "revision": "6ac70fe1551228f70ffb5e6ce9bb3a1df413981a",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-agusmakmun-sentistrengthid-blob-master-id-dict-rootword-txt-a37c068b",
+      "config": "default",
+      "split": "all",
+      "revision": "6ac70fe1551228f70ffb5e6ce9bb3a1df413981a",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-agusmakmun-sentistrengthid-blob-master-id-dict-sentimentword--dcb306fb",
+      "config": "default",
+      "split": "all",
+      "revision": "6ac70fe1551228f70ffb5e6ce9bb3a1df413981a",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-agusmakmun-sentistrengthid-blob-master-id-dict-slangword-txt-a78e3e1b",
+      "config": "default",
+      "split": "all",
+      "revision": "6ac70fe1551228f70ffb5e6ce9bb3a1df413981a",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-annisanurulazhar-absa-playground-6a14bac0",
+      "config": "airy_sample_data",
+      "split": "unspecified",
+      "revision": "96d9e309b8a6b06e1ac8efc53d753b7276c69d3f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-dziem-proner-labeled-text-e523a088",
+      "config": "automatically_labeled",
+      "split": "unspecified",
+      "revision": "6aa1d5977b32d67b47ef8a52f27604a037e87cf3",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-edwardsamuel-wilayah-administratif-indonesia-tree-master-csv-fd747a83",
+      "config": "csv/districts",
+      "split": "all",
+      "revision": "92f52a0f5b54e4dc57f8b92e1cc27c81c16ee68f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-fajri91-inset-1a716a1e",
+      "config": "negative",
+      "split": "all",
+      "revision": "9cb9d2971c575d64f4f0ed13c35048095f072a5b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-famrashel-idn-tagged-corpus-4d4b91b4",
+      "config": "Indonesian_Manually_Tagged_Corpus",
+      "split": "unspecified",
+      "revision": "449cec98af823d95b7f4c94d91fbcd993c7a6cbb",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-festvox-datasets-cmu-wilderness-26fa465d",
+      "config": "LangList",
+      "split": "unspecified",
+      "revision": "a2102dcd050bf09d4b8aeea5babc6470b5b9376f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-frankydotid-indonesian-speech-recognition-3a404a3d",
+      "config": "Notes",
+      "split": "unspecified",
+      "revision": "16f4a3e36ebba4416bcd78ed8a63d4e09c181fa8",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-google-research-datasets-tydiqa-bbaf7643",
+      "config": "baseline/mbert_modified_vocab",
+      "split": "unspecified",
+      "revision": "43cde6d598c1cf88c1a8b9ed32e89263ffb5e03b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-haryoa-indo-collex-15f62dc3",
+      "config": "data/formal_to_informal/dev",
+      "split": "all",
+      "revision": "df626e812cd5924794fabf40003368a69f4e953c",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-haryoa-stif-indonesia-67f74ee6",
+      "config": "experiment-config/00001_default_supervised_config",
+      "split": "unspecified",
+      "revision": "4bb2d90f7d03a35f24a366ba08f35a51cb305bd0",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ialfina-id-hatespeech-detection-1274b659",
+      "config": "IDHSD_RIO_unbalanced_713_2017",
+      "split": "unspecified",
+      "revision": "6cfba9852fa8812a5d7ca8870894c9454474800f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ialfina-kethu-c94981ee",
+      "config": "kethu-1.0/kethu-1.0-POSTag",
+      "split": "unspecified",
+      "revision": "0e14cc096d8514d7273cc8099953bd6c2a3130e0",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ialfina-ner-dataset-modified-dee-300ec7ad",
+      "config": "20k_dee",
+      "split": "unspecified",
+      "revision": "8adeaa83523ba5fb0e91587b71467b30591886c8",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-indobenchmark-indonlg-7e049059",
+      "config": "dataset/MT_JAVNRF_INZNTV/test_preprocess",
+      "split": "unspecified",
+      "revision": "ea2c784b84385acb68dccf91c3d3c293247ec64b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-indobenchmark-indonlu-4e203553",
+      "config": "dataset/bapos_pos-idn/test_preprocess",
+      "split": "unspecified",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-indolem-indobertweet-e6127a30",
+      "config": "NER/data/dev",
+      "split": "unspecified",
+      "revision": "371dde282d79b96bab9804b7e6794dee08dd4606",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-indonlp-nusa-writes-9afc4a23",
+      "config": "nusa_alinea-author-bew",
+      "split": "train",
+      "revision": "b337f511185cd44c9c57ff906ecef1af6165adbc",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ir-nlp-csui-indonli-07e8f40a",
+      "config": "default",
+      "split": "train",
+      "revision": "7b55d8217cc8417a8268b2ee6ba07bbfb75a4c8b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-jordhy97-final-project-9debcde3",
+      "config": "data/reviews/reviews",
+      "split": "unspecified",
+      "revision": "54e480ded15b5a599029b8b0e5dd6815f2dcea8e",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-kata-ai-kawat-3b281d55",
+      "config": "semantic/antonyms",
+      "split": "all",
+      "revision": "1797e43bdedd602b66046331178aa27e58a176a2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-louisowen6-nlp-bahasa-resources-blob-master-combined-root-wor-ce107578",
+      "config": "default",
+      "split": "all",
+      "revision": "cdf127872143a57a9a53f34735bca44c8206b696",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-louisowen6-nlp-bahasa-resources-blob-master-combined-slang-wo-f2245e1b",
+      "config": "default",
+      "split": "all",
+      "revision": "cdf127872143a57a9a53f34735bca44c8206b696",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-louisowen6-nlp-bahasa-resources-blob-master-combined-stop-wor-d2a14789",
+      "config": "default",
+      "split": "all",
+      "revision": "cdf127872143a57a9a53f34735bca44c8206b696",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-louisowen6-quora-paraphrasing-id-44094cf5",
+      "config": "ID_Quora_Paraphrasing_train",
+      "split": "unspecified",
+      "revision": "3a22f8f331408e9bf0017c3c7babd66ad5d50d44",
+      "conversion_revision": null,
+      "status": "skipped_size_cap",
+      "error": "Source exceeds 10485760 bytes: https://raw.githubusercontent.com/louisowen6/quora_paraphrasing_id/3a22f8f331408e9bf0017c3c7babd66ad5d50d44/ID_Quora_Paraphrasing_train.json"
+    },
+    {
+      "id": "github-com-masdevid-id-opinionwords-blob-master-negative-txt-fb2074a2",
+      "config": "default",
+      "split": "all",
+      "revision": "163a4500fd68ff72a5efdcc33f8fde98fceb87ee",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-masdevid-id-opinionwords-blob-master-positive-txt-da1eb13c",
+      "config": "default",
+      "split": "all",
+      "revision": "163a4500fd68ff72a5efdcc33f8fde98fceb87ee",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-nasalsabila-kamus-alay-40fc0e01",
+      "config": "colloquial-indonesian-lexicon",
+      "split": "all",
+      "revision": "c710fa9f3f8d8727c24f3209f4f6a4b6ecaf6d8b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-okkyibrohim-id-abusive-language-detection-97221951",
+      "config": "kamusalay",
+      "split": "unspecified",
+      "revision": "3f511561df6b1ae60f7343f8992d1471209ff10b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-okkyibrohim-id-multi-label-hate-speech-and-abusive-language-d-1641a63c",
+      "config": "default",
+      "split": "all",
+      "revision": "be98de98e974b65838d2b5145ee2c89e9bf53a6b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-okkyibrohim-id-multi-label-hate-speech-and-abusive-language-d-79a215f3",
+      "config": "abusive",
+      "split": "unspecified",
+      "revision": "be98de98e974b65838d2b5145ee2c89e9bf53a6b",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-panggi-pujangga-blob-master-resource-formalization-formalizat-1eff6800",
+      "config": "default",
+      "split": "all",
+      "revision": "f700b5fc24044494e101252ab6e6cef88fe837e2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-panggi-pujangga-blob-master-resource-netagger-contextualfeatu-57ea8b31",
+      "config": "default",
+      "split": "all",
+      "revision": "f700b5fc24044494e101252ab6e6cef88fe837e2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-panggi-pujangga-blob-master-resource-netagger-contextualfeatu-8a3ca3b0",
+      "config": "default",
+      "split": "all",
+      "revision": "f700b5fc24044494e101252ab6e6cef88fe837e2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-panggi-pujangga-blob-master-resource-netagger-contextualfeatu-b3fd7b11",
+      "config": "default",
+      "split": "all",
+      "revision": "f700b5fc24044494e101252ab6e6cef88fe837e2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-panggi-pujangga-blob-master-resource-reference-opre-txt-e9b0ef23",
+      "config": "default",
+      "split": "all",
+      "revision": "f700b5fc24044494e101252ab6e6cef88fe837e2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-panggi-pujangga-blob-master-resource-sentencedetector-acronym-54c712f7",
+      "config": "default",
+      "split": "all",
+      "revision": "f700b5fc24044494e101252ab6e6cef88fe837e2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-pentagonal-indonesia-postal-code-tree-master-csv-e3b5366f",
+      "config": "Csv/Comma/first_row_header_db_postal_code_data",
+      "split": "all",
+      "revision": "c0f3ab8213df9f45557bc205d3dc80155e41e953",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-prasastoadi-serangkai-blob-master-serangkai-kamus-data-kamus--8f01603a",
+      "config": "default",
+      "split": "all",
+      "revision": "0db8dfcf22f4fa50b71b2704375179264b5adcf2",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-acronym-txt-35d5bee9",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-emoticon-txt-97238f27",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-kbba-txt-02a3ba48",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-negatif-ta2-t-cb0edd90",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-negative-add--fb596325",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-negative-keyw-073b8f11",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-positif-ta2-t-c19e0fcd",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-positive-add--e8342de9",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-positive-keyw-6eae157c",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-ramaprakoso-analisis-sentimen-blob-master-kamus-stopword-txt-41f8ebdf",
+      "config": "default",
+      "split": "all",
+      "revision": "4b0e3da96695a0cf548c21fd206c91ac060a599f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-sastrawi-sastrawi-blob-master-data-kata-dasar-original-txt-c605ac65",
+      "config": "default",
+      "split": "all",
+      "revision": "09db1bda7756fae740767ed7eb8de1b01ae859d5",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-sastrawi-sastrawi-blob-master-data-kata-dasar-txt-aecd8386",
+      "config": "default",
+      "split": "all",
+      "revision": "09db1bda7756fae740767ed7eb8de1b01ae859d5",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-seuriously-genderprediction-blob-master-namatraining-txt-8f0e1554",
+      "config": "default",
+      "split": "all",
+      "revision": "c1d7a1a8d275d7b2123756c7d3953878a3d45f42",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-universaldependencies-ud-indonesian-gsd-2b137fdc",
+      "config": "default",
+      "split": "train",
+      "revision": "bc23d75691fd97255bbd420c4dbacd423b0ede95",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-victoriasovereigne-tesaurus-2e9e9bd8",
+      "config": "dict",
+      "split": "unspecified",
+      "revision": "9df5ae4f63a18190a9576bca5badbd75351c2f44",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-wikidepia-indonesia-dataset-tree-master-question-answering-ma-9921aa96",
+      "config": "question-answering/mathematics_dataset/data/extrapolate/algebra__polynomial_roots_big",
+      "split": "unspecified",
+      "revision": "f19b665f7f439ba8dee0a43ecab5bb6e3da71173",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-wikidepia-indonesian-datasets-tree-master-dictionary-wordlist-a18d5adc",
+      "config": "default",
+      "split": "all",
+      "revision": "f19b665f7f439ba8dee0a43ecab5bb6e3da71173",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-wikidepia-indonesian-datasets-tree-master-paraphrase-paws-7e49f54d",
+      "config": "paraphrase/paws/data/final/dev",
+      "split": "unspecified",
+      "revision": "f19b665f7f439ba8dee0a43ecab5bb6e3da71173",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-willyfh-msvd-indonesian-4d701381",
+      "config": "data/MSVD-indonesian",
+      "split": "unspecified",
+      "revision": "00454581a3561e37204c04671a6190404e691515",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-willyfh-msvd-indonesian-blob-main-data-msvd-indonesian-txt-d791fa44",
+      "config": "default",
+      "split": "all",
+      "revision": "00454581a3561e37204c04671a6190404e691515",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-yasirutomo-python-sentianalysis-id-blob-master-data-feature-l-b6d189f5",
+      "config": "default",
+      "split": "all",
+      "revision": "1818a0f6f0798cf35e3d38a83690a56f693b0c93",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "github-com-yohanesgultom-nlp-experiments-tree-master-data-ner-be05d23a",
+      "config": "data/ner/output",
+      "split": "unspecified",
+      "revision": "41e8a00f01e8b2210b4d30873883a6b65480397c",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-danielsyahputra-ktp-vlm-instruct-dataset",
+      "config": "default",
+      "split": "train",
+      "revision": "3a401f3bf98d993fa614fd8b6f011b79fa3dd90f",
+      "conversion_revision": "867e53c3c84bcbf68d28896eca274baadf0deebd",
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-datasaur-mongabay-collection",
+      "config": "default",
+      "split": "sentiment_test",
+      "revision": "dac1ee52f18963fefd6b39fa3a28afde24b965ab",
+      "conversion_revision": "20bff1c06f39008380c7db2da0a0d8a26f26e1a0",
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-id-newspapers-2018",
+      "config": "id_newspapers_2018",
+      "split": "train",
+      "revision": "68dfc14d9552a7b1a7c5f16d10c9d4b698d02d55",
+      "conversion_revision": null,
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-indolem-indocareer",
+      "config": "Advocate",
+      "split": "dev",
+      "revision": "1cb3b9d9c21bb7ce3ca496979f970da8f1429fef",
+      "conversion_revision": "2751a5c27316dd27251b305fe63e392a6c4c7426",
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-indolem-indoculture",
+      "config": "default",
+      "split": "test",
+      "revision": "d5f33af62c9b6e808ee11b75c13f042c3e5c7690",
+      "conversion_revision": "5c6645cf8b12dc4133dde1577d4fc8179c573fb8",
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-indolem-indommlu",
+      "config": "IndoMMLU",
+      "split": "evaluation",
+      "revision": "df6d6d348d7f8a0b1c98b56f4443977b60fae0f5",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-indonesian-nlp-wikipedia-id",
+      "config": "default",
+      "split": "train",
+      "revision": "518f9a8c7e17e058385fdb60a4f18977986759a3",
+      "conversion_revision": "4b141219bd06b4ebe64435ce96a0b0582c3ebc71",
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-indonlp-cendol-collection-v1",
+      "config": "default",
+      "split": "train",
+      "revision": "1851f107d765714836c938dbba5241a74bd6a2f6",
+      "conversion_revision": "e3f98d2968f37525172064d97026775b4038cd98",
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-indonlp-cendol-collection-v2",
+      "config": "default",
+      "split": "train",
+      "revision": "0cc7d988fdbc9c5ff7b2f93579e1359ab5cf301c",
+      "conversion_revision": "b78239827f577f3da00213269a733b02e0689025",
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-opus100",
+      "config": "en-id",
+      "split": "train",
+      "revision": "805090dc28bf78897da9641cdf08b61287580df9",
+      "conversion_revision": null,
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-ravialdy-javanese-translated",
+      "config": "default",
+      "split": "train",
+      "revision": "39dda2b82de4c1aebe75be477b2696973da94117",
+      "conversion_revision": "f4d29c88c6c1d26ee710c230db88810cc1ade2eb",
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-rifkiaputri-su-csqa",
+      "config": "llm_adapt",
+      "split": "train",
+      "revision": "9ef677915c1e76286da0a6e70d121a54ff356404",
+      "conversion_revision": "745c2470aa8467951e7c97d8e4bdb7e8dfaddef1",
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-rifoag-javanese-sundanese-story-cloze",
+      "config": "llm_generated",
+      "split": "train",
+      "revision": "7a26adff475784e8b41977235f951a5768d6e10d",
+      "conversion_revision": "fcc765f0f71f000c885ffb042b9ed08961ac3147",
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-robinsyihab-qqpr-triplets-id",
+      "config": "default",
+      "split": "train",
+      "revision": "ceac2e6ae1dac48a1275f827915dca6dc4d84f07",
+      "conversion_revision": "3c434ca0a46bed9c2aa94d559d28ac855f7c0b95",
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "hf-sabilmakbar-indo-wiki",
+      "config": "indo_wiki_dedup_data/wiki_ace_20230901_dataset_soft_hard_cleansed",
+      "split": "unspecified",
+      "revision": "7725656f60a8c21ae501c16bf56b17cb9f56c974",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-tapaco",
+      "config": "id",
+      "split": "train",
+      "revision": "1c7374c61fec4c1e94cb2d840527d31d6ef32e00",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "hf-wikidepia-indoparacrawl",
+      "config": "default",
+      "split": "train",
+      "revision": "76133a5c0f1d27bfb8521dad6783490cd157e730",
+      "conversion_revision": "a04f6c1fde384d46cebb1c76d34bb96e1d18555b",
+      "status": "skipped_size_cap"
+    },
+    {
+      "id": "indonlu-bapos",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-casa",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-emot",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-facqa",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-hoasa",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-keps",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-nergrit",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-nerp",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-posp",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-terma",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "indonlu-wrete",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-ace",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-ban",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-bbc",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-bjn",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-bug",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-en",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-id",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-jv",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-ace",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-ban",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-bbc",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-bjn",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-bug",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-en",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-jv",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-mad",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-min",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-nij",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-lexicon-su",
+      "config": "default",
+      "split": "all",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-mad",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-min",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-mt",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-nij",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "nusax-su",
+      "config": "default",
+      "split": "train",
+      "revision": "75b0be5d982348332509f296e10d9bf9cb66d60f",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "openwebtext-id",
+      "config": "default",
+      "split": "train",
+      "revision": "2f9b1f45f4ae10e7883234f4b3be81230aa7cc13",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "simple-summaries-id",
+      "config": "default",
+      "split": "train",
+      "revision": "32f3c692253ebc02ed52b98d23a880988e819267",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    },
+    {
+      "id": "smsa",
+      "config": "default",
+      "split": "train",
+      "revision": "ce728f6926a36174b9923dfe49d6a6839b6e9bb7",
+      "conversion_revision": null,
+      "status": "sample_ok",
+      "rows": 1
+    }
+  ],
+  "summary": {
+    "sample_ok": 110,
+    "skipped_size_cap": 10
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "scope": "All rows of all official splits in the pinned NusaX/IndoNLU profiles. Parser/schema checks, not semantic quality or legal approval. Source data stays outside the repository.",
+  "results": [
+    {
+      "id": "indonlu-bapos",
+      "config": "default",
+      "split": "train",
+      "rows": 8000,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-bapos",
+      "config": "default",
+      "split": "validation",
+      "rows": 1000,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-bapos",
+      "config": "default",
+      "split": "test",
+      "rows": 1029,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-casa",
+      "config": "default",
+      "split": "train",
+      "rows": 810,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-casa",
+      "config": "default",
+      "split": "validation",
+      "rows": 90,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-casa",
+      "config": "default",
+      "split": "test",
+      "rows": 180,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-emot",
+      "config": "default",
+      "split": "train",
+      "rows": 3521,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-emot",
+      "config": "default",
+      "split": "validation",
+      "rows": 440,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-emot",
+      "config": "default",
+      "split": "test",
+      "rows": 440,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-facqa",
+      "config": "default",
+      "split": "train",
+      "rows": 2495,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-facqa",
+      "config": "default",
+      "split": "validation",
+      "rows": 311,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-facqa",
+      "config": "default",
+      "split": "test",
+      "rows": 311,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-hoasa",
+      "config": "default",
+      "split": "train",
+      "rows": 2283,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-hoasa",
+      "config": "default",
+      "split": "validation",
+      "rows": 285,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-hoasa",
+      "config": "default",
+      "split": "test",
+      "rows": 286,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-keps",
+      "config": "default",
+      "split": "train",
+      "rows": 800,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-keps",
+      "config": "default",
+      "split": "validation",
+      "rows": 200,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-keps",
+      "config": "default",
+      "split": "test",
+      "rows": 247,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-nergrit",
+      "config": "default",
+      "split": "train",
+      "rows": 1672,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-nergrit",
+      "config": "default",
+      "split": "validation",
+      "rows": 209,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-nergrit",
+      "config": "default",
+      "split": "test",
+      "rows": 209,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-nerp",
+      "config": "default",
+      "split": "train",
+      "rows": 6720,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-nerp",
+      "config": "default",
+      "split": "validation",
+      "rows": 840,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-nerp",
+      "config": "default",
+      "split": "test",
+      "rows": 840,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-posp",
+      "config": "default",
+      "split": "train",
+      "rows": 6720,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-posp",
+      "config": "default",
+      "split": "validation",
+      "rows": 840,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-posp",
+      "config": "default",
+      "split": "test",
+      "rows": 840,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-terma",
+      "config": "default",
+      "split": "train",
+      "rows": 3000,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-terma",
+      "config": "default",
+      "split": "validation",
+      "rows": 1000,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-terma",
+      "config": "default",
+      "split": "test",
+      "rows": 1000,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-wrete",
+      "config": "default",
+      "split": "train",
+      "rows": 300,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-wrete",
+      "config": "default",
+      "split": "validation",
+      "rows": 50,
+      "status": "parsed"
+    },
+    {
+      "id": "indonlu-wrete",
+      "config": "default",
+      "split": "test",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-ace",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-ace",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-ace",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-ban",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-ban",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-ban",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bbc",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bbc",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bbc",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bjn",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bjn",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bjn",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bug",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bug",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-bug",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-en",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-en",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-en",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-id",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-id",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-id",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-jv",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-jv",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-jv",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-ace",
+      "config": "default",
+      "split": "all",
+      "rows": 1014,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-ban",
+      "config": "default",
+      "split": "all",
+      "rows": 1063,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-bbc",
+      "config": "default",
+      "split": "all",
+      "rows": 1662,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-bjn",
+      "config": "default",
+      "split": "all",
+      "rows": 795,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-bug",
+      "config": "default",
+      "split": "all",
+      "rows": 1020,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-en",
+      "config": "default",
+      "split": "all",
+      "rows": 2443,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-jv",
+      "config": "default",
+      "split": "all",
+      "rows": 940,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-mad",
+      "config": "default",
+      "split": "all",
+      "rows": 1252,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-min",
+      "config": "default",
+      "split": "all",
+      "rows": 654,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-nij",
+      "config": "default",
+      "split": "all",
+      "rows": 833,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-lexicon-su",
+      "config": "default",
+      "split": "all",
+      "rows": 995,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-mad",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-mad",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-mad",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-min",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-min",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-min",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-mt",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-mt",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-mt",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-nij",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-nij",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-nij",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-su",
+      "config": "default",
+      "split": "train",
+      "rows": 500,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-su",
+      "config": "default",
+      "split": "validation",
+      "rows": 100,
+      "status": "parsed"
+    },
+    {
+      "id": "nusax-su",
+      "config": "default",
+      "split": "test",
+      "rows": 400,
+      "status": "parsed"
+    },
+    {
+      "id": "smsa",
+      "config": "default",
+      "split": "train",
+      "rows": 11000,
+      "status": "parsed"
+    },
+    {
+      "id": "smsa",
+      "config": "default",
+      "split": "validation",
+      "rows": 1260,
+      "status": "parsed"
+    },
+    {
+      "id": "smsa",
+      "config": "default",
+      "split": "test",
+      "rows": 500,
+      "status": "parsed"
+    }
+  ],
+  "summary": {
+    "parsed": 86
+  },
+  "total_rows": 85499
+}

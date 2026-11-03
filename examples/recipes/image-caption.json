@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "task": "image-caption",
+  "fields": {"image": "data.image", "caption": "data.caption"}
+}

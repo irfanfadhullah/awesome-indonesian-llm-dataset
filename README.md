@@ -5,9 +5,35 @@ A curated collection of high-quality Indonesian datasets for training Large Lang
 
 You can visit the web version of this repository at this [link](https://irfanfadhullah.github.io/awesome-indonesian-llm-dataset/)
 
+## 🧰 Dataset Toolkit (Experimental)
+
+This repository now includes a locally installable Python package for discovering
+sources, downloading supported datasets, and preparing reproducible JSONL.
+The toolkit includes **7 canonical loaders** plus a repository-wide source catalog,
+data-file adapters, task-specific preparation recipes, metadata auditing, and
+policy-aware resumable batch downloads. Sources needing permission, credentials,
+or custom adapters remain visible with explicit instructions and skip reasons.
+
+```bash
+python -m pip install -e .
+indo-datasets list
+indo-datasets catalog --summary
+indo-datasets download nusax-id --limit 100 --output downloads/nusax-raw
+indo-datasets preprocess downloads/nusax-raw/data.jsonl --output downloads/nusax-clean --deduplicate
+```
+
+For Hugging Face sources, install `python -m pip install -e ".[hf]"`.
+Downloads are explicit, existing official splits are preserved, and individual
+dataset licenses still apply. **This does not download or relicense all datasets.**
+See [PACKAGE.md](PACKAGE.md) for the Python API, loader coverage, license notes,
+cleaning options, testing, and a prioritized improvement roadmap.
+See [SOURCE_COVERAGE.md](SOURCE_COVERAGE.md) for the complete source-level status
+table. Source records include mirrors and references—not just unique datasets.
+
 ## 📋 Table of Contents
 
 - [🎯 Overview](#-overview)
+- [🧰 Dataset Toolkit](#-dataset-toolkit-experimental)
 - [📋 TODO](#-todo)
 - [📊 Dataset Categories](#-dataset-categories)\
   📄 [Go to overview file](data/00_dataset_categories.md)
@@ -77,6 +103,9 @@ We are actively working on improving the awesome-indonesian-llm-dataset reposito
 
 
 #### 🔧 Unified Access \& Preprocessing Code
+
+An experimental implementation is now available in `src/indonesian_datasets`;
+see [the toolkit guide](PACKAGE.md). The remaining items below are the broader roadmap.
 
 - **Develop `indonesian-nlp` Python package** for easy dataset access
 - **Create standardized preprocessing pipelines** for different data types:

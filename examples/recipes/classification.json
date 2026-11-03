@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "task": "classification",
+  "fields": {"text": "data.text", "label": "data.label"},
+  "clean_fields": ["text"]
+}

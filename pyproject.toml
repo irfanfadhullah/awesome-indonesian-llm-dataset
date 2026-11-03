@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awesome-indonesian-datasets"
+version = "0.2.0"
+description = "Discover, load, and preprocess datasets from Awesome Indonesian LLM Dataset"
+readme = "PACKAGE.md"
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+hf = ["datasets>=3.0,<5"]
+compression = ["zstandard>=0.23"]
+all = ["datasets>=3.0,<5", "zstandard>=0.23"]
+dev = ["build>=1", "ruff>=0.9"]
+
+[project.scripts]
+indo-datasets = "indonesian_datasets.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+indonesian_datasets = ["registry.json", "resources.json", "catalog.json", "audit.json"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
