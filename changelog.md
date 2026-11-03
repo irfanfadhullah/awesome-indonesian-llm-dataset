@@ -45,6 +45,10 @@ guarantee of present upstream availability.
   removed a duplicate Citations heading. The regenerated catalog therefore has
   **283 source records** (one fewer project-reference link); the 224 data-source
   records and their audit observations are unchanged.
+- CI: pinned the `dev` extra to `ruff>=0.17,<0.18`. The unpinned `ruff>=0.9`
+  picked up ruff 0.17, which also formats Python code blocks in Markdown and
+  failed `ruff format --check` on README examples. Those examples are now
+  formatted (quote style and trailing whitespace only).
 
 ### Documentation
 

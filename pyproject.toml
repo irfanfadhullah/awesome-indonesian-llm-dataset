@@ -18,7 +18,8 @@ classifiers = [
 hf = ["datasets>=3.0,<5"]
 compression = ["zstandard>=0.23"]
 all = ["datasets>=3.0,<5", "zstandard>=0.23"]
-dev = ["build>=1", "ruff>=0.9"]
+# Ruff changes formatting between minor releases; bump this range deliberately.
+dev = ["build>=1", "ruff>=0.17,<0.18"]
 
 [project.scripts]
 indo-datasets = "indonesian_datasets.cli:main"

@@ -440,14 +440,14 @@ Additional datasets available on HuggingFace:
 
 ```python
 # NusaTranslation datasets
-datasets.load_dataset('indonlp/nusatranslation_emot')
-datasets.load_dataset('indonlp/nusatranslation_senti') 
-datasets.load_dataset('indonlp/nusatranslation_mt')
+datasets.load_dataset("indonlp/nusatranslation_emot")
+datasets.load_dataset("indonlp/nusatranslation_senti")
+datasets.load_dataset("indonlp/nusatranslation_mt")
 
 # NusaParagraph datasets
-datasets.load_dataset('indonlp/nusaparagraph_emot')
-datasets.load_dataset('indonlp/nusaparagraph_rhetoric')
-datasets.load_dataset('indonlp/nusaparagraph_topic')
+datasets.load_dataset("indonlp/nusaparagraph_emot")
+datasets.load_dataset("indonlp/nusaparagraph_rhetoric")
+datasets.load_dataset("indonlp/nusaparagraph_topic")
 ```
 
 **Sundanese Resources**
@@ -1076,20 +1076,20 @@ Various pre-trained word embeddings are available including:
 import datasets
 
 # Load IndoNLI
-indonli = datasets.load_dataset('indonli')
+indonli = datasets.load_dataset("indonli")
 
 # Load NusaX datasets
-nusax_mt = datasets.load_dataset('indonlp/nusatranslation_mt')
-nusax_sentiment = datasets.load_dataset('indonlp/nusatranslation_senti')
+nusax_mt = datasets.load_dataset("indonlp/nusatranslation_mt")
+nusax_sentiment = datasets.load_dataset("indonlp/nusatranslation_senti")
 
 # Load OSCAR Indonesian
-oscar_id = datasets.load_dataset('oscar-corpus/OSCAR-2301', language='id')
+oscar_id = datasets.load_dataset("oscar-corpus/OSCAR-2301", language="id")
 
 # Load IndoMMLU
-indommlu = datasets.load_dataset('indolem/IndoMMLU')
+indommlu = datasets.load_dataset("indolem/IndoMMLU")
 
 # Load IndoCareer
-indocareer = datasets.load_dataset('indolem/IndoCareer')
+indocareer = datasets.load_dataset("indolem/IndoCareer")
 ```
 
 **From GitHub Repositories:**
@@ -1113,11 +1113,11 @@ from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # Load Indonesian sentiment data
-dataset = load_dataset('indonlp/nusatranslation_senti')
+dataset = load_dataset("indonlp/nusatranslation_senti")
 
 # Use Indonesian BERT
-tokenizer = AutoTokenizer.from_pretrained('indobenchmark/indobert-base-p1')
-model = AutoModelForSequenceClassification.from_pretrained('indobenchmark/indobert-base-p1')
+tokenizer = AutoTokenizer.from_pretrained("indobenchmark/indobert-base-p1")
+model = AutoModelForSequenceClassification.from_pretrained("indobenchmark/indobert-base-p1")
 
 # Training code here...
 ```
